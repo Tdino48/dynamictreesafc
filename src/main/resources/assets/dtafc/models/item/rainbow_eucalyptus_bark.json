@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "dtafc:item/bark/rainbow_eucalyptus_bark"
+                 },
+    "parent":  "item/generated"
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "__comment": "Cancel vanilla-style tree features from AFC in overworld biomes.",
+    "select": { "tag": "#minecraft:is_overworld" },
+    "cancellers": {
+      "type": "tree",
+      "namespace": "afc"
+    }
+  },
+  {
+    "__comment": "Cancel vanilla-style tree features from TFC in overworld biomes.",
+    "select": { "tag": "#minecraft:is_overworld" },
+    "cancellers": {
+      "type": "tree",
+      "namespace": "tfc"
+    }
+  }
+]

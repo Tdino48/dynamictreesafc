@@ -1,0 +1,7 @@
+﻿{
+  "common_species": "dtafc:horsetail_ironwood",
+  "common_leaves": "dtafc:horsetail_ironwood",
+  "primitive_log": "afc:wood/log/ironwood",
+  "primitive_stripped_log": "afc:wood/stripped_log/ironwood",
+  "max_branch_radius": 6
+}

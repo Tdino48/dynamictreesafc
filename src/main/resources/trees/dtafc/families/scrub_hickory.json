@@ -1,0 +1,7 @@
+﻿{
+  "common_species": "dtafc:scrub_hickory",
+  "common_leaves": "dtafc:scrub_hickory",
+  "primitive_log": "tfc:wood/log/hickory",
+  "primitive_stripped_log": "tfc:wood/stripped_log/hickory",
+  "max_branch_radius": 6
+}

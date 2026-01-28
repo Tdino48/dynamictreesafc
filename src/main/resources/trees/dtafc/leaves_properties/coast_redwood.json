@@ -1,0 +1,7 @@
+{
+  "primitive_leaves": "afc:wood/leaves/coast_redwood",
+  "cell_kit": "dynamictrees:conifer",
+  "smother": 3,
+  "type": "scruffy",
+  "scruffy_leaf_chance": 0.8
+}

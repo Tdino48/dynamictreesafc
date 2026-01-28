@@ -1,0 +1,15 @@
+{
+  "type": "palm",
+  "leaves_properties": "dtafc:jaggery_palm",
+  "family": "dtafc:jaggery_palm",
+  "can_bone_meal_tree": false,
+  "tapering": 0.2,
+  "signal_energy": 20,
+  "growth_rate": 1.05,
+  "growth_logic_kit": "dttfc:diagonal_palm",
+  "soil_longevity": 6,
+  "acceptable_soils": [
+    "dirt_like",
+    "sand_like"
+  ]
+}

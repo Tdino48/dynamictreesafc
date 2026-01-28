@@ -1,0 +1,5 @@
+{
+  "primitive_leaves": "afc:wood/leaves/coast_spruce",
+  "cell_kit": "dynamictrees:conifer",
+  "smother": 3
+}

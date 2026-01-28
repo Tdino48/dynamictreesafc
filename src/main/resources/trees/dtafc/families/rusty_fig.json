@@ -1,0 +1,7 @@
+{
+  "common_species": "dtafc:rusty_fig",
+  "common_leaves": "dtafc:rusty_fig",
+  "primitive_log": "afc:wood/log/fig",
+  "primitive_stripped_log": "afc:wood/stripped_log/fig",
+  "max_branch_radius": 8
+}

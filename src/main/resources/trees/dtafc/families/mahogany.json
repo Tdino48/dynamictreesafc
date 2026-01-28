@@ -1,0 +1,7 @@
+{
+  "common_species": "dtafc:mahogany",
+  "common_leaves": "dtafc:mahogany",
+  "primitive_log": "afc:wood/log/mahogany",
+  "primitive_stripped_log": "afc:wood/stripped_log/mahogany",
+  "max_branch_radius": 13
+}

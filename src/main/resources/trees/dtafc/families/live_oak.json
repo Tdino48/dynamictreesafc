@@ -1,0 +1,6 @@
+﻿{
+  "common_species": "dtafc:live_oak",
+  "common_leaves": "dtafc:live_oak",
+  "primitive_log": "tfc:wood/log/oak",
+  "primitive_stripped_log": "tfc:wood/stripped_log/oak"
+}

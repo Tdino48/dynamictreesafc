@@ -1,0 +1,12 @@
+{
+  "leaves_properties": "dtafc:true_teak",
+  "family": "dtafc:true_teak",
+  "can_bone_meal_tree": false,
+  "growth_logic_kit": "dtaddon_lib:canopy",
+  "signal_energy": 13,
+  "up_probability": 2,
+  "tapering": 0.22,
+  "growth_rate": 0.9,
+  "lowest_branch_height": 4,
+  "max_branch_radius": 10
+}

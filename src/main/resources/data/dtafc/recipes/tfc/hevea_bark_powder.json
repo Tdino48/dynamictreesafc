@@ -1,0 +1,23 @@
+{
+    "recipes":  [
+                    {
+                        "conditions":  [
+                                           {
+                                               "type":  "forge:mod_loaded",
+                                               "modid":  "tfc_debark"
+                                           }
+                                       ],
+                        "recipe":  {
+                                       "ingredient":  {
+                                                          "item":  "dtafc:hevea_bark"
+                                                      },
+                                       "result":  {
+                                                      "count":  1,
+                                                      "item":  "dtafc:hevea_bark_powder"
+                                                  },
+                                       "type":  "tfc:quern"
+                                   }
+                    }
+                ],
+    "type":  "forge:conditional"
+}

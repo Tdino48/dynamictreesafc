@@ -1,0 +1,12 @@
+{
+  "leaves_properties": "dtafc:black_oak",
+  "family": "dtafc:black_oak",
+  "can_bone_meal_tree": false,
+  "tapering": 0.3,
+  "up_probability": 4,
+  "signal_energy": 16,
+  "max_branch_radius": 24,
+  "growth_logic_kit": "dynamictrees:dark_oak",
+  "growth_rate": 0.8,
+  "lowest_branch_height": 6
+}

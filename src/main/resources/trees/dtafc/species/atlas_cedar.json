@@ -1,0 +1,16 @@
+{
+  "leaves_properties": "dtafc:atlas_cedar",
+  "family": "dtafc:atlas_cedar",
+  "can_bone_meal_tree": false,
+  "growth_rate": 1.2,
+  "growth_logic_kit": {
+    "name": "dynamictrees:conifer",
+    "properties": {
+      "energy_divisor": 2.0
+    }
+  },
+  "lowest_branch_height": 4,
+  "up_probability": 3,
+  "signal_energy": 18,
+  "tapering": 0.3
+}

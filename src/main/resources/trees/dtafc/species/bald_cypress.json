@@ -1,0 +1,16 @@
+{
+  "leaves_properties": "dtafc:bald_cypress",
+  "family": "dtafc:bald_cypress",
+  "can_bone_meal_tree": false,
+  "growth_logic_kit": {
+    "name": "dynamictrees:conifer",
+    "properties": {
+      "energy_divisor": 2.0
+    }
+  },
+  "growth_rate": 1,
+  "up_probability": 2,
+  "signal_energy": 14,
+  "lowest_branch_height": 6,
+  "tapering": 0.5
+}

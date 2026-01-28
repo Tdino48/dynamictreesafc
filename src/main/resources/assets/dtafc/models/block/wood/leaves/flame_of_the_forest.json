@@ -1,0 +1,6 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "afc:block/wood/leaves/flame_of_the_forest"
+  }
+}

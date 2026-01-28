@@ -1,0 +1,13 @@
+{
+  "leaves_properties": "dtafc:rubber_fig",
+  "family": "dtafc:rubber_fig",
+  "can_bone_meal_tree": false,
+  "growth_logic_kit": "dtaddon_lib:canopy",
+  "tapering": 0.2,
+  "signal_energy": 14,
+  "up_probability": 2,
+  "lowest_branch_height": 2,
+  "growth_rate": 0.9,
+  "canopy_height": 4,
+  "max_branch_radius": 8
+}

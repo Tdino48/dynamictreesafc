@@ -1,0 +1,6 @@
+{
+  "common_species": "dtafc:poplar",
+  "common_leaves": "dtafc:poplar",
+  "primitive_log": "afc:wood/log/poplar",
+  "primitive_stripped_log": "tfc:wood/stripped_log/aspen"
+}

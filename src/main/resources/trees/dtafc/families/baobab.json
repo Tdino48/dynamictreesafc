@@ -1,0 +1,7 @@
+{
+  "common_species": "dtafc:baobab",
+  "common_leaves": "dtafc:baobab",
+  "primitive_log": "afc:wood/log/baobab",
+  "primitive_stripped_log": "afc:wood/stripped_log/baobab",
+  "max_branch_radius": 16
+}

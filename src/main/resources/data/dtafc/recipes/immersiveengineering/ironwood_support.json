@@ -1,0 +1,35 @@
+{
+    "recipes":  [
+                    {
+                        "conditions":  [
+                                           {
+                                               "type":  "forge:mod_loaded",
+                                               "modid":  "immersiveengineering"
+                                           }
+                                       ],
+                        "recipe":  {
+                                       "input":  [
+                                                     {
+                                                         "item":  "afc:wood/support/ironwood"
+                                                     }
+                                                 ],
+                                       "energy":  1600,
+                                       "result":  {
+                                                      "count":  6,
+                                                      "item":  "afc:wood/lumber/ironwood"
+                                                  },
+                                       "type":  "immersiveengineering:sawmill",
+                                       "secondaries":  [
+                                                           {
+                                                               "stripping":  false,
+                                                               "output":  {
+                                                                              "count":  4,
+                                                                              "tag":  "forge:dusts/wood"
+                                                                          }
+                                                           }
+                                                       ]
+                                   }
+                    }
+                ],
+    "type":  "forge:conditional"
+}

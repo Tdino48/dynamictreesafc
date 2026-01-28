@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "dtafc:item/bark/ironwood_bark"
+                 },
+    "parent":  "item/generated"
+}

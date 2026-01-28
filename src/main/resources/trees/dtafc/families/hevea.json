@@ -1,0 +1,7 @@
+{
+  "common_species": "dtafc:hevea",
+  "common_leaves": "dtafc:hevea",
+  "primitive_log": "afc:wood/log/hevea",
+  "primitive_stripped_log": "afc:wood/stripped_log/hevea",
+  "max_branch_radius": 8
+}

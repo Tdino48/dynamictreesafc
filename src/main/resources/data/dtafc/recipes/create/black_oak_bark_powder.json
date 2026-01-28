@@ -1,0 +1,32 @@
+{
+    "recipes":  [
+                    {
+                        "conditions":  [
+                                           {
+                                               "type":  "forge:mod_loaded",
+                                               "modid":  "create"
+                                           },
+                                           {
+                                               "type":  "forge:mod_loaded",
+                                               "modid":  "tfc_debark"
+                                           }
+                                       ],
+                        "recipe":  {
+                                       "ingredients":  [
+                                                           {
+                                                               "item":  "dtafc:black_oak_bark"
+                                                           }
+                                                       ],
+                                       "processingTime":  600,
+                                       "type":  "create:milling",
+                                       "results":  [
+                                                       {
+                                                           "count":  1,
+                                                           "item":  "dtafc:black_oak_bark_powder"
+                                                       }
+                                                   ]
+                                   }
+                    }
+                ],
+    "type":  "forge:conditional"
+}

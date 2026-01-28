@@ -1,0 +1,8 @@
+﻿{
+  "common_species": "dtafc:sitka_spruce",
+  "common_leaves": "dtafc:sitka_spruce",
+  "primitive_log": "tfc:wood/log/spruce",
+  "primitive_stripped_log": "tfc:wood/stripped_log/spruce",
+  "max_branch_radius": 7,
+  "conifer_variants": true
+}

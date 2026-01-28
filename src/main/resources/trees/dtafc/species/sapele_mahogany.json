@@ -1,0 +1,11 @@
+{
+  "leaves_properties": "dtafc:sapele_mahogany",
+  "family": "dtafc:sapele_mahogany",
+  "can_bone_meal_tree": false,
+  "signal_energy": 20,
+  "growth_rate": 0.9,
+  "up_probability": 9,
+  "tapering": 0.35,
+  "lowest_branch_height": 6,
+  "max_branch_radius": 15
+}

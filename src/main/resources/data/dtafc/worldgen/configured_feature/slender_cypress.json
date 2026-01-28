@@ -1,0 +1,33 @@
+{
+  "type": "dttfc:forest_entry",
+  "config": {
+    "entry": {
+      "climate": {
+        "min_temperature": 2.5,
+        "max_temperature": 15.3,
+        "min_rainfall": 80,
+        "max_rainfall": 260
+      },
+      "groundcover": [
+        {
+          "block": "afc:wood/twig/cypress"
+        },
+        {
+          "block": "afc:wood/fallen_leaves/cypress"
+        }
+      ],
+      "normal_tree": "tfc:tree/cypress",
+      "dead_tree": "tfc:tree/cypress_dead",
+      "fallen_tree_chance": 0,
+      "bush_log": {
+        "Name": "afc:wood/wood/cypress",
+        "Properties": {
+          "natural": "true",
+          "axis": "y"
+        }
+      },
+      "bush_leaves": "afc:wood/leaves/cypress"
+    },
+    "species": "dtafc:slender_cypress"
+  }
+}

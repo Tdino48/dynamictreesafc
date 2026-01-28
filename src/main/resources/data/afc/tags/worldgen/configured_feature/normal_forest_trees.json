@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "tfc:tree/hickory_entry", "required": false, "remove": true }
+  ]
+}

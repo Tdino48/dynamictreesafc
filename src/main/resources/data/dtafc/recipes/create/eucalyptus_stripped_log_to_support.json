@@ -1,0 +1,36 @@
+{
+    "recipes":  [
+                    {
+                        "conditions":  [
+                                           {
+                                               "type":  "forge:mod_loaded",
+                                               "modid":  "create"
+                                           },
+                                           {
+                                               "type":  "forge:mod_loaded",
+                                               "modid":  "tfc_lumberjack"
+                                           }
+                                       ],
+                        "recipe":  {
+                                       "ingredients":  [
+                                                           {
+                                                               "item":  "afc:wood/stripped_log/eucalyptus"
+                                                           }
+                                                       ],
+                                       "processingTime":  300,
+                                       "type":  "create:cutting",
+                                       "results":  [
+                                                       {
+                                                           "count":  3,
+                                                           "item":  "afc:wood/support/eucalyptus"
+                                                       },
+                                                       {
+                                                           "count":  2,
+                                                           "item":  "tfc_lumberjack:sawdust"
+                                                       }
+                                                   ]
+                                   }
+                    }
+                ],
+    "type":  "forge:conditional"
+}

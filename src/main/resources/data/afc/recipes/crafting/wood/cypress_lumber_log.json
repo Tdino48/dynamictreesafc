@@ -1,0 +1,24 @@
+{
+    "recipes":  [
+                    {
+                        "conditions":  [
+                                           {
+                                               "type":  "forge:mod_loaded",
+                                               "modid":  "dtafc_disabled"
+                                           }
+                                       ],
+                        "recipe":  {
+                                       "ingredients":  [
+                                                           {
+                                                               "item":  "minecraft:barrier"
+                                                           }
+                                                       ],
+                                       "result":  {
+                                                      "item":  "minecraft:barrier"
+                                                  },
+                                       "type":  "minecraft:crafting_shapeless"
+                                   }
+                    }
+                ],
+    "type":  "forge:conditional"
+}

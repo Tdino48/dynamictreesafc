@@ -1,0 +1,45 @@
+{
+    "recipes":  [
+                    {
+                        "conditions":  [
+                                           {
+                                               "type":  "forge:mod_loaded",
+                                               "modid":  "immersiveengineering"
+                                           }
+                                       ],
+                        "recipe":  {
+                                       "secondaries":  [
+                                                           {
+                                                               "stripping":  true,
+                                                               "output":  {
+                                                                              "count":  1,
+                                                                              "tag":  "forge:dusts/wood"
+                                                                          }
+                                                           },
+                                                           {
+                                                               "stripping":  false,
+                                                               "output":  {
+                                                                              "count":  2,
+                                                                              "tag":  "forge:dusts/wood"
+                                                                          }
+                                                           }
+                                                       ],
+                                       "energy":  1600,
+                                       "stripped":  {
+                                                        "item":  "afc:wood/stripped_log/ipe"
+                                                    },
+                                       "type":  "immersiveengineering:sawmill",
+                                       "input":  [
+                                                     {
+                                                         "item":  "afc:wood/log/ipe"
+                                                     }
+                                                 ],
+                                       "result":  {
+                                                      "count":  4,
+                                                      "item":  "afc:wood/support/ipe"
+                                                  }
+                                   }
+                    }
+                ],
+    "type":  "forge:conditional"
+}

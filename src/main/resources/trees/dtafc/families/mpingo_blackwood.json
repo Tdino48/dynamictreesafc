@@ -1,0 +1,7 @@
+﻿{
+  "common_species": "dtafc:mpingo_blackwood",
+  "common_leaves": "dtafc:mpingo_blackwood",
+  "primitive_log": "tfc:wood/log/blackwood",
+  "primitive_stripped_log": "tfc:wood/stripped_log/blackwood",
+  "max_branch_radius": 10
+}

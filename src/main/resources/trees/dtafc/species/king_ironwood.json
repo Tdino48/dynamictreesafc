@@ -1,0 +1,12 @@
+{
+  "leaves_properties": "dtafc:king_ironwood",
+  "family": "dtafc:king_ironwood",
+  "can_bone_meal_tree": false,
+  "growth_logic_kit": "dtaddon_lib:mahogany",
+  "signal_energy": 22,
+  "up_probability": 3,
+  "tapering": 0.4,
+  "growth_rate": 1.05,
+  "lowest_branch_height": 8,
+  "max_branch_radius": 15
+}

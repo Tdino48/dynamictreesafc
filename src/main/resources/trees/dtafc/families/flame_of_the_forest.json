@@ -1,0 +1,7 @@
+﻿{
+  "common_species": "dtafc:flame_of_the_forest",
+  "common_leaves": "dtafc:flame_of_the_forest",
+  "primitive_log": "afc:wood/log/teak",
+  "primitive_stripped_log": "afc:wood/stripped_log/teak",
+  "max_branch_radius": 8
+}

@@ -1,0 +1,7 @@
+{
+  "loader": "dynamictrees:branch",
+  "textures": {
+    "bark": "afc:block/wood/log/black_oak",
+    "rings": "afc:block/wood/log_top/black_oak"
+  }
+}

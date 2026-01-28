@@ -1,0 +1,12 @@
+{
+  "leaves_properties": "dtafc:red_silk_cotton",
+  "family": "dtafc:red_silk_cotton",
+  "can_bone_meal_tree": false,
+  "growth_logic_kit": "dynamictrees:jungle",
+  "tapering": 0.3,
+  "signal_energy": 24,
+  "up_probability": 3,
+  "lowest_branch_height": 2,
+  "growth_rate": 1.0,
+  "max_branch_radius": 16
+}

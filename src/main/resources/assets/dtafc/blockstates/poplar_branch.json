@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dtafc:block/poplar_branch"
+    }
+  }
+}

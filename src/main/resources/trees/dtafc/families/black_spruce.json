@@ -1,0 +1,7 @@
+﻿{
+  "common_species": "dtafc:black_spruce",
+  "common_leaves": "dtafc:black_spruce",
+  "primitive_log": "tfc:wood/log/spruce",
+  "primitive_stripped_log": "tfc:wood/stripped_log/spruce",
+  "conifer_variants": true
+}

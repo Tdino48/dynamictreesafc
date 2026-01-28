@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "tfc:tree/mangrove_entry", "required": false, "remove": true }
+  ]
+}

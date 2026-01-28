@@ -1,0 +1,9 @@
+{
+  "leaves_properties": "dtafc:weeping_cypress",
+  "family": "dtafc:weeping_cypress",
+  "can_bone_meal_tree": false,
+  "signal_energy":8,
+  "up_probability": 2,
+  "growth_rate": 0.9,
+  "max_branch_radius": 6
+}

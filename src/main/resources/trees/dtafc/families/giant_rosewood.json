@@ -1,0 +1,7 @@
+﻿{
+  "common_species": "dtafc:giant_rosewood",
+  "common_leaves": "dtafc:giant_rosewood",
+  "primitive_log": "tfc:wood/log/rosewood",
+  "primitive_stripped_log": "tfc:wood/stripped_log/rosewood",
+  "max_branch_radius": 12
+}

@@ -1,0 +1,12 @@
+{
+  "leaves_properties": "dtafc:horsetail_ironwood",
+  "family": "dtafc:horsetail_ironwood",
+  "can_bone_meal_tree": false,
+  "growth_logic_kit": "dtaddon_lib:thin_conifer",
+  "signal_energy": 14,
+  "up_probability": 3,
+  "tapering": 0.2,
+  "growth_rate": 1.1,
+  "lowest_branch_height": 2,
+  "max_branch_radius": 6
+}

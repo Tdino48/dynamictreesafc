@@ -1,0 +1,11 @@
+{
+  "leaves_properties": "dtafc:lebombo_ironwood",
+  "family": "dtafc:lebombo_ironwood",
+  "can_bone_meal_tree": false,
+  "signal_energy": 14,
+  "up_probability": 4,
+  "tapering": 0.14,
+  "growth_rate": 1.1,
+  "lowest_branch_height": 5,
+  "max_branch_radius": 5
+}

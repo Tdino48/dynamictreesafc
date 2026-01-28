@@ -1,0 +1,8 @@
+﻿{
+  "common_species": "dtafc:red_silk_cotton",
+  "common_leaves": "dtafc:red_silk_cotton",
+  "primitive_log": "tfc:wood/log/kapok",
+  "primitive_stripped_log": "tfc:wood/stripped_log/kapok",
+  "max_branch_radius": 24,
+  "max_signal_depth": 64
+}

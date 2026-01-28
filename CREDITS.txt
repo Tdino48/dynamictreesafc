@@ -1,0 +1,4 @@
+I would like to thank the creators of TerraFirmaCraft for their wonderful mod that I loved to play throughout the years.
+Also, the creators of ArborFirmaCraft for adding in a ton new trees to TFC, which inspired me to take on the challenge of adding them into the Dynamic Trees world of TFC.
+I learned how to create this mod specifically for the addition of AFC to the modpack HardRock TerraFirmaCraft 4 made by sir_Robson.
+    - I added specific compat additions that are available when used with the HTFC 4 modpack. Primarily bark stuff and changed recipes.

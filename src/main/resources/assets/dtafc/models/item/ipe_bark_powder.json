@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "dtafc:item/bark_powder/ipe_bark_powder"
+                 },
+    "parent":  "item/generated"
+}

@@ -1,0 +1,13 @@
+{
+  "leaves_properties": "dtafc:rusty_fig",
+  "family": "dtafc:rusty_fig",
+  "can_bone_meal_tree": false,
+  "growth_logic_kit": "dtaddon_lib:tall_deciduous",
+  "tapering": 0.25,
+  "signal_energy": 16,
+  "up_probability": 2,
+  "lowest_branch_height": 5,
+  "growth_rate": 1.0,
+  "trunk_up_boost": 6,
+  "max_branch_radius": 8
+}

@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "tfc:tree/acacia_entry", "required": false, "remove": true },
+    { "id": "tfc:tree/ash_entry", "required": false, "remove": true },
+    { "id": "tfc:tree/aspen_entry", "required": false, "remove": true },
+    { "id": "tfc:tree/birch_entry", "required": false, "remove": true },
+    { "id": "tfc:tree/blackwood_entry", "required": false, "remove": true },
+    { "id": "tfc:tree/chestnut_entry", "required": false, "remove": true },
+    { "id": "tfc:tree/douglas_fir_entry", "required": false, "remove": true },
+    { "id": "tfc:tree/hickory_entry", "required": false, "remove": true },
+    { "id": "tfc:tree/kapok_entry", "required": false, "remove": true },
+    { "id": "tfc:tree/maple_entry", "required": false, "remove": true },
+    { "id": "tfc:tree/oak_entry", "required": false, "remove": true },
+    { "id": "tfc:tree/palm_entry", "required": false, "remove": true },
+    { "id": "tfc:tree/pine_entry", "required": false, "remove": true },
+    { "id": "tfc:tree/rosewood_entry", "required": false, "remove": true },
+    { "id": "tfc:tree/sequoia_entry", "required": false, "remove": true },
+    { "id": "tfc:tree/spruce_entry", "required": false, "remove": true },
+    { "id": "tfc:tree/sycamore_entry", "required": false, "remove": true },
+    { "id": "tfc:tree/white_cedar_entry", "required": false, "remove": true },
+    { "id": "tfc:tree/willow_entry", "required": false, "remove": true }
+  ]
+}

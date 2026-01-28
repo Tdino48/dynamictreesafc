@@ -1,0 +1,8 @@
+{
+  "common_species": "dtafc:black_oak",
+  "common_leaves": "dtafc:black_oak",
+  "primitive_log": "afc:wood/log/black_oak",
+  "primitive_stripped_log": "tfc:wood/stripped_log/oak",
+  "max_branch_radius": 24,
+  "conifer_varients": true
+}

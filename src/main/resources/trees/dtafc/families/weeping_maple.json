@@ -1,0 +1,7 @@
+﻿{
+  "common_species": "dtafc:weeping_maple",
+  "common_leaves": "dtafc:weeping_maple",
+  "primitive_log": "tfc:wood/log/maple",
+  "primitive_stripped_log": "tfc:wood/stripped_log/maple",
+  "max_branch_radius": 6
+}

@@ -1,0 +1,11 @@
+{
+  "leaves_properties": "dtafc:mahogany",
+  "family": "dtafc:mahogany",
+  "can_bone_meal_tree": false,
+  "signal_energy": 14,
+  "growth_rate": 0.9,
+  "up_probability": 5,
+  "tapering": 0.4,
+  "lowest_branch_height": 5,
+  "max_branch_radius": 13
+}

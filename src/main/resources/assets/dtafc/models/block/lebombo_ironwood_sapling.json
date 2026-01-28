@@ -1,0 +1,8 @@
+{
+  "parent": "dynamictrees:block/smartmodel/sapling",
+  "textures": {
+    "particle": "afc:block/wood/leaves/lebombo_ironwood",
+    "log": "afc:block/wood/log/ironwood",
+    "leaves": "afc:block/wood/leaves/lebombo_ironwood"
+  }
+}

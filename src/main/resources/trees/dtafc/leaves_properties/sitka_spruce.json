@@ -1,0 +1,6 @@
+{
+  "primitive_leaves": "afc:wood/leaves/sitka_spruce",
+  "cell_kit": "dynamictrees:conifer",
+  "smother": 3,
+  "type": "scruffy"
+}

@@ -1,0 +1,11 @@
+{
+  "leaves_properties": "dtafc:ipe",
+  "family": "dtafc:ipe",
+  "can_bone_meal_tree": false,
+  "signal_energy": 12,
+  "up_probability": 4,
+  "tapering": 0.1,
+  "growth_rate": 1.1,
+  "lowest_branch_height": 4,
+  "max_branch_radius": 6
+}

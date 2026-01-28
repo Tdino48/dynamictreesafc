@@ -1,0 +1,33 @@
+﻿{
+  "type": "dttfc:forest_entry",
+  "config": {
+    "entry": {
+      "climate": {
+        "min_temperature": 9.8,
+        "max_temperature": 17.1,
+        "min_rainfall": 355,
+        "max_rainfall": 500
+      },
+      "groundcover": [
+        {
+          "block": "tfc:wood/twig/willow"
+        },
+        {
+          "block": "afc:wood/fallen_leaves/weeping_willow"
+        }
+      ],
+      "normal_tree": "tfc:tree/weeping_willow",
+      "dead_tree": "tfc:tree/weeping_willow_dead",
+      "fallen_tree_chance": 0,
+      "bush_log": {
+        "Name": "tfc:wood/wood/willow",
+        "Properties": {
+          "natural": "true",
+          "axis": "y"
+        }
+      },
+      "bush_leaves": "afc:wood/leaves/weeping_willow"
+    },
+    "species": "dtafc:weeping_willow"
+  }
+}

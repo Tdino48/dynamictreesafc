@@ -1,0 +1,8 @@
+﻿{
+  "common_species": "dtafc:weeping_cypress",
+  "common_leaves": "dtafc:weeping_cypress",
+  "primitive_log": "afc:wood/log/cypress",
+  "primitive_stripped_log": "afc:wood/stripped_log/cypress",
+  "max_branch_radius": 6,
+  "conifer_variants": true
+}

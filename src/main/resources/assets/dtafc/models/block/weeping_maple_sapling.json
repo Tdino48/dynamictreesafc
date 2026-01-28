@@ -1,0 +1,8 @@
+{
+  "parent": "dynamictrees:block/smartmodel/sapling",
+  "textures": {
+    "particle": "afc:block/wood/leaves/weeping_maple",
+    "log": "tfc:block/wood/log/maple",
+    "leaves": "afc:block/wood/leaves/weeping_maple"
+  }
+}

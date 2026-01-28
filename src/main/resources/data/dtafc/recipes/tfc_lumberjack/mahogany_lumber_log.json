@@ -1,0 +1,68 @@
+{
+    "recipes":  [
+                    {
+                        "conditions":  [
+                                           {
+                                               "type":  "forge:mod_loaded",
+                                               "modid":  "tfc_lumberjack"
+                                           }
+                                       ],
+                        "recipe":  {
+                                       "post":  [
+                                                    {
+                                                        "contextual":  [
+                                                                           {
+                                                                               "type":  "chance",
+                                                                               "chance":  1
+                                                                           }
+                                                                       ],
+                                                        "s":  2,
+                                                        "type":  "add_item_cooldown"
+                                                    },
+                                                    {
+                                                        "type":  "damage_item"
+                                                    },
+                                                    {
+                                                        "contextual":  [
+                                                                           {
+                                                                               "type":  "chance",
+                                                                               "chance":  1
+                                                                           }
+                                                                       ],
+                                                        "block":  "minecraft:air",
+                                                        "type":  "place"
+                                                    },
+                                                    {
+                                                        "contextual":  [
+                                                                           {
+                                                                               "type":  "chance",
+                                                                               "chance":  0.4
+                                                                           }
+                                                                       ],
+                                                        "count":  1,
+                                                        "item":  "afc:wood/lumber/mahogany",
+                                                        "type":  "drop_item"
+                                                    },
+                                                    {
+                                                        "contextual":  [
+                                                                           {
+                                                                               "type":  "chance",
+                                                                               "chance":  0.8
+                                                                           }
+                                                                       ],
+                                                        "count":  2,
+                                                        "item":  "afc:wood/lumber/mahogany",
+                                                        "type":  "drop_item"
+                                                    }
+                                                ],
+                                       "max_repeats":  3,
+                                       "item_in":  {
+                                                       "tag":  "tfc:saws"
+                                                   },
+                                       "type":  "lychee:block_interacting",
+                                       "block_in":  "afc:wood/vertical_support/mahogany"
+                                   }
+                    }
+                ],
+    "type":  "forge:conditional"
+}

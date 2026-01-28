@@ -1,0 +1,7 @@
+﻿{
+  "common_species": "dtafc:mountain_ash",
+  "common_leaves": "dtafc:mountain_ash",
+  "primitive_log": "afc:wood/log/eucalyptus",
+  "primitive_stripped_log": "afc:wood/stripped_log/eucalyptus",
+  "max_branch_radius": 8
+}

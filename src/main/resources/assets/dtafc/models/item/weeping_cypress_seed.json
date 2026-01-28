@@ -1,0 +1,6 @@
+{
+  "parent": "dynamictrees:item/standard_seed",
+  "textures": {
+    "layer0": "dtafc:item/seed/weeping_cypress_seed"
+  }
+}

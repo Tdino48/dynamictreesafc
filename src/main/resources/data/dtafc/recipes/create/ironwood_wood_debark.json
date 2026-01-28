@@ -1,0 +1,36 @@
+{
+    "recipes":  [
+                    {
+                        "conditions":  [
+                                           {
+                                               "type":  "forge:mod_loaded",
+                                               "modid":  "create"
+                                           },
+                                           {
+                                               "type":  "forge:mod_loaded",
+                                               "modid":  "tfc_debark"
+                                           }
+                                       ],
+                        "recipe":  {
+                                       "ingredients":  [
+                                                           {
+                                                               "item":  "afc:wood/wood/ironwood"
+                                                           }
+                                                       ],
+                                       "processingTime":  300,
+                                       "type":  "create:cutting",
+                                       "results":  [
+                                                       {
+                                                           "count":  1,
+                                                           "item":  "afc:wood/stripped_wood/ironwood"
+                                                       },
+                                                       {
+                                                           "count":  1,
+                                                           "item":  "dtafc:ironwood_bark"
+                                                       }
+                                                   ]
+                                   }
+                    }
+                ],
+    "type":  "forge:conditional"
+}

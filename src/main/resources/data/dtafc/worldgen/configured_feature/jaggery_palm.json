@@ -1,0 +1,33 @@
+{
+  "type": "dttfc:forest_entry",
+  "config": {
+    "entry": {
+      "climate": {
+        "min_temperature": 20.7,
+        "max_temperature": 26.2,
+        "min_rainfall": 300,
+        "max_rainfall": 500
+      },
+      "groundcover": [
+        {
+          "block": "tfc:wood/twig/palm"
+        },
+        {
+          "block": "afc:wood/fallen_leaves/jaggery_palm"
+        }
+      ],
+      "normal_tree": "tfc:tree/jaggery_palm",
+      "dead_tree": "tfc:tree/jaggery_palm_dead",
+      "fallen_tree_chance": 0,
+      "bush_log": {
+        "Name": "tfc:wood/wood/palm",
+        "Properties": {
+          "natural": "true",
+          "axis": "y"
+        }
+      },
+      "bush_leaves": "afc:wood/leaves/jaggery_palm"
+    },
+    "species": "dtafc:jaggery_palm"
+  }
+}

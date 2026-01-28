@@ -1,0 +1,7 @@
+{
+  "common_species": "dtafc:bald_cypress",
+  "common_leaves": "dtafc:bald_cypress",
+  "primitive_log": "afc:wood/log/cypress",
+  "primitive_stripped_log": "afc:wood/stripped_log/cypress",
+  "max_branch_radius": 8
+}

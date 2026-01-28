@@ -1,0 +1,36 @@
+{
+    "recipes":  [
+                    {
+                        "conditions":  [
+                                           {
+                                               "type":  "forge:mod_loaded",
+                                               "modid":  "create"
+                                           },
+                                           {
+                                               "type":  "forge:mod_loaded",
+                                               "modid":  "tfc_debark"
+                                           }
+                                       ],
+                        "recipe":  {
+                                       "ingredients":  [
+                                                           {
+                                                               "item":  "afc:wood/wood/eucalyptus"
+                                                           }
+                                                       ],
+                                       "processingTime":  300,
+                                       "type":  "create:cutting",
+                                       "results":  [
+                                                       {
+                                                           "count":  1,
+                                                           "item":  "afc:wood/stripped_wood/eucalyptus"
+                                                       },
+                                                       {
+                                                           "count":  1,
+                                                           "item":  "dtafc:eucalyptus_bark"
+                                                       }
+                                                   ]
+                                   }
+                    }
+                ],
+    "type":  "forge:conditional"
+}

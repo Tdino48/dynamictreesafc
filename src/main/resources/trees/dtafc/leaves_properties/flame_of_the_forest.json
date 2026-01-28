@@ -1,0 +1,6 @@
+{
+  "primitive_leaves": "afc:wood/leaves/flame_of_the_forest",
+  "cell_kit": "dynamictrees:acacia",
+  "smother": 2,
+  "color": "#E95B1A"
+}

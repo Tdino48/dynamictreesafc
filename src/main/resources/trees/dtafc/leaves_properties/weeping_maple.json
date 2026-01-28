@@ -1,0 +1,5 @@
+{
+  "primitive_leaves": "afc:wood/leaves/weeping_maple",
+  "cell_kit": "dtaddon_lib:willow",
+  "smother": 3
+}

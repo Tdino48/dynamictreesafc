@@ -1,0 +1,32 @@
+{
+    "recipes":  [
+                    {
+                        "conditions":  [
+                                           {
+                                               "type":  "forge:mod_loaded",
+                                               "modid":  "create"
+                                           },
+                                           {
+                                               "type":  "forge:mod_loaded",
+                                               "modid":  "tfc_debark"
+                                           }
+                                       ],
+                        "recipe":  {
+                                       "ingredients":  [
+                                                           {
+                                                               "item":  "dtafc:gum_arabic_bark"
+                                                           }
+                                                       ],
+                                       "processingTime":  600,
+                                       "type":  "create:milling",
+                                       "results":  [
+                                                       {
+                                                           "count":  1,
+                                                           "item":  "dtafc:gum_arabic_bark_powder"
+                                                       }
+                                                   ]
+                                   }
+                    }
+                ],
+    "type":  "forge:conditional"
+}

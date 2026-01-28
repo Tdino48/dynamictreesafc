@@ -1,0 +1,7 @@
+{
+  "loader": "dynamictrees:branch",
+  "textures": {
+    "bark": "afc:block/wood/stripped_log/ipe",
+    "rings": "afc:block/wood/stripped_log_top/ipe"
+  }
+}

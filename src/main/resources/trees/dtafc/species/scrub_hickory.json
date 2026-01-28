@@ -1,0 +1,11 @@
+{
+  "leaves_properties": "dtafc:scrub_hickory",
+  "family": "dtafc:scrub_hickory",
+  "can_bone_meal_tree": false,
+  "tapering": 0.3,
+  "signal_energy": 9,
+  "up_probability": 3,
+  "lowest_branch_height": 2,
+  "growth_rate": 0.7,
+  "max_branch_radius": 6
+}

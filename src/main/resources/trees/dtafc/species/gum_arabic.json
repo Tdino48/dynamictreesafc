@@ -1,0 +1,10 @@
+{
+  "leaves_properties": "dtafc:gum_arabic",
+  "family": "dtafc:gum_arabic",
+  "can_bone_meal_tree": false,
+  "signal_energy": 10,
+  "up_probability": 1,
+  "tapering": 0.15,
+  "growth_rate": 0.7,
+  "lowest_branch_height": 6
+}

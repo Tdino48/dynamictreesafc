@@ -1,0 +1,36 @@
+{
+    "recipes":  [
+                    {
+                        "conditions":  [
+                                           {
+                                               "type":  "forge:mod_loaded",
+                                               "modid":  "create"
+                                           },
+                                           {
+                                               "type":  "forge:mod_loaded",
+                                               "modid":  "tfc_debark"
+                                           }
+                                       ],
+                        "recipe":  {
+                                       "ingredients":  [
+                                                           {
+                                                               "item":  "afc:wood/wood/teak"
+                                                           }
+                                                       ],
+                                       "processingTime":  300,
+                                       "type":  "create:cutting",
+                                       "results":  [
+                                                       {
+                                                           "count":  1,
+                                                           "item":  "afc:wood/stripped_wood/teak"
+                                                       },
+                                                       {
+                                                           "count":  1,
+                                                           "item":  "dtafc:teak_bark"
+                                                       }
+                                                   ]
+                                   }
+                    }
+                ],
+    "type":  "forge:conditional"
+}

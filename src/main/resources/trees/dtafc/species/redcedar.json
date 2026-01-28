@@ -1,0 +1,17 @@
+{
+  "leaves_properties": "dtafc:redcedar",
+  "family": "dtafc:redcedar",
+  "can_bone_meal_tree": false,
+  "growth_logic_kit": {
+    "name": "dynamictrees:conifer",
+    "properties": {
+      "energy_divisor": 2.0
+    }
+  },
+  "tapering": 0.35,
+  "signal_energy": 16,
+  "up_probability": 3,
+  "lowest_branch_height": 2,
+  "growth_rate": 1.2,
+  "max_branch_radius": 12
+}

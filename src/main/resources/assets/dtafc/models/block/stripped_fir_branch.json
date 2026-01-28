@@ -1,0 +1,7 @@
+{
+  "loader": "dynamictrees:branch",
+  "textures": {
+    "bark": "tfc:block/wood/stripped_log/douglas_fir",
+    "rings": "tfc:block/wood/stripped_log_top/douglas_fir"
+  }
+}

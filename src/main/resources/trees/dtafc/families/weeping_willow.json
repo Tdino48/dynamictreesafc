@@ -1,0 +1,7 @@
+﻿{
+  "common_species": "dtafc:weeping_willow",
+  "common_leaves": "dtafc:weeping_willow",
+  "primitive_log": "tfc:wood/log/willow",
+  "primitive_stripped_log": "tfc:wood/stripped_log/willow",
+  "max_branch_radius": 10
+}

@@ -1,0 +1,5 @@
+{
+  "primitive_leaves": "afc:wood/leaves/baobab",
+  "cell_kit": "dynamictrees:acacia",
+  "light_requirement": 15
+}

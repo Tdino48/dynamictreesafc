@@ -1,0 +1,68 @@
+{
+    "recipes":  [
+                    {
+                        "conditions":  [
+                                           {
+                                               "type":  "forge:mod_loaded",
+                                               "modid":  "tfc_debark"
+                                           }
+                                       ],
+                        "recipe":  {
+                                       "post":  [
+                                                    {
+                                                        "contextual":  [
+                                                                           {
+                                                                               "type":  "chance",
+                                                                               "chance":  1
+                                                                           }
+                                                                       ],
+                                                        "s":  1,
+                                                        "type":  "add_item_cooldown"
+                                                    },
+                                                    {
+                                                        "type":  "damage_item"
+                                                    },
+                                                    {
+                                                        "contextual":  [
+                                                                           {
+                                                                               "type":  "chance",
+                                                                               "chance":  1
+                                                                           }
+                                                                       ],
+                                                        "block":  "afc:wood/stripped_wood/redcedar",
+                                                        "type":  "place"
+                                                    },
+                                                    {
+                                                        "contextual":  [
+                                                                           {
+                                                                               "type":  "chance",
+                                                                               "chance":  1
+                                                                           }
+                                                                       ],
+                                                        "count":  1,
+                                                        "item":  "dtafc:redcedar_bark",
+                                                        "type":  "drop_item"
+                                                    },
+                                                    {
+                                                        "contextual":  [
+                                                                           {
+                                                                               "type":  "chance",
+                                                                               "chance":  0.5
+                                                                           }
+                                                                       ],
+                                                        "count":  1,
+                                                        "item":  "dtafc:redcedar_bark",
+                                                        "type":  "drop_item"
+                                                    }
+                                                ],
+                                       "max_repeats":  3,
+                                       "item_in":  {
+                                                       "tag":  "tfc:axes"
+                                                   },
+                                       "type":  "lychee:block_interacting",
+                                       "block_in":  "afc:wood/wood/redcedar"
+                                   }
+                    }
+                ],
+    "type":  "forge:conditional"
+}

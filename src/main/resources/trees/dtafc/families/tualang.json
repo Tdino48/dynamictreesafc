@@ -1,0 +1,8 @@
+{
+  "common_species": "dtafc:tualang",
+  "common_leaves": "dtafc:tualang",
+  "primitive_log": "afc:wood/log/tualang",
+  "primitive_stripped_log": "afc:wood/stripped_log/tualang",
+  "max_branch_radius": 24,
+  "max_signal_depth": 64
+}

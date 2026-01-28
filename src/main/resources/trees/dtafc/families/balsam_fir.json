@@ -1,0 +1,8 @@
+{
+  "common_species": "dtafc:balsam_fir",
+  "common_leaves": "dtafc:balsam_fir",
+  "primitive_log": "tfc:wood/log/douglas_fir",
+  "primitive_stripped_log": "tfc:wood/stripped_log/douglas_fir",
+  "max_branch_radius": 8,
+  "conifer_variants": true
+}

@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "dtafc:item/bark/baobab_bark"
+                 },
+    "parent":  "item/generated"
+}

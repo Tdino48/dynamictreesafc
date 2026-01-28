@@ -1,0 +1,7 @@
+{
+  "loader": "dynamictrees:thick_branch",
+  "textures": {
+    "bark": "afc:block/wood/log/redcedar",
+    "rings": "afc:block/wood/log_top/redcedar"
+  }
+}

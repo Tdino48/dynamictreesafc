@@ -1,0 +1,7 @@
+﻿{
+  "common_species": "dtafc:iroko_teak",
+  "common_leaves": "dtafc:iroko_teak",
+  "primitive_log": "afc:wood/log/teak",
+  "primitive_stripped_log": "afc:wood/stripped_log/teak",
+  "max_branch_radius": 14
+}

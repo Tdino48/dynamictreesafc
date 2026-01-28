@@ -1,0 +1,9 @@
+{
+  "type": "dttfc:diagonal_palm",
+  "common_species": "dtafc:jaggery_palm",
+  "common_leaves": "dtafc:jaggery_palm",
+  "primitive_log": "tfc:wood/log/palm",
+  "primitive_stripped_log": "tfc:wood/stripped_log/palm",
+  "primary_thickness": 3,
+  "secondary_thickness": 4
+}

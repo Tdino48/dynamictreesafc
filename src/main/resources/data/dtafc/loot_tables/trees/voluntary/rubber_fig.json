@@ -1,0 +1,21 @@
+{
+  "type": "dynamictrees:voluntary",
+  "pools": [
+    {
+      "name": "loot_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dtafc:rubber_fig_seed",
+          "conditions": [
+            {
+              "condition": "dynamictrees:voluntary_seed_drop_chance",
+              "rarity": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

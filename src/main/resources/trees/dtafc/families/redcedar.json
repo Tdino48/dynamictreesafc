@@ -1,0 +1,7 @@
+{
+  "common_species": "dtafc:redcedar",
+  "common_leaves": "dtafc:redcedar",
+  "primitive_log": "afc:wood/log/redcedar",
+  "primitive_stripped_log": "afc:wood/stripped_log/cypress",
+  "max_branch_radius": 12
+}

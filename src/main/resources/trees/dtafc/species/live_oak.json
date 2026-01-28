@@ -1,0 +1,12 @@
+{
+  "leaves_properties": "dtafc:live_oak",
+  "family": "dtafc:live_oak",
+  "can_bone_meal_tree": false,
+  "growth_logic_kit": "dtaddon_lib:tall_deciduous",
+  "signal_energy": 13,
+  "growth_rate": 0.9,
+  "up_probability": 4,
+  "tapering": 0.2,
+  "lowest_branch_height": 6,
+  "trunk_up_boost": 8
+}

@@ -1,0 +1,7 @@
+{
+  "common_species": "dtafc:blue_gum",
+  "common_leaves": "dtafc:blue_gum",
+  "primitive_log": "afc:wood/log/eucalyptus",
+  "primitive_stripped_log": "afc:wood/stripped_log/eucalyptus",
+  "conifer_variants": true
+}

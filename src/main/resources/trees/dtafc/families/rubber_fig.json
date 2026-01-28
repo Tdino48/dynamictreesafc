@@ -1,0 +1,7 @@
+{
+  "common_species": "dtafc:rubber_fig",
+  "common_leaves": "dtafc:rubber_fig",
+  "primitive_log": "afc:wood/log/rubber_fig",
+  "primitive_stripped_log": "afc:wood/stripped_log/fig",
+  "max_branch_radius": 8
+}
