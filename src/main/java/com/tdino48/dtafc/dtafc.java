@@ -22,6 +22,7 @@ public class dtafc {
 
     public dtafc(final FMLJavaModLoadingContext context) {
         IEventBus eventBus = context.getModEventBus();
+        DtafcConfig.register();
         eventBus.addListener(this::commonSetup);
         eventBus.addListener(this::clientSetup);
         eventBus.addListener(this::gatherData);
