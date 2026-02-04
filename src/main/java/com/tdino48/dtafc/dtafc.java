@@ -9,7 +9,6 @@ import com.ferreusveritas.dynamictrees.systems.fruit.Fruit;
 import com.ferreusveritas.dynamictrees.systems.pod.Pod;
 import com.ferreusveritas.dynamictrees.tree.family.Family;
 import com.ferreusveritas.dynamictrees.tree.species.Species;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -46,12 +45,5 @@ public class dtafc {
                 Fruit.REGISTRY,
                 Pod.REGISTRY
         );
-    }
-    public static ResourceLocation location(final String path) {
-        ResourceLocation location = ResourceLocation.tryBuild(MOD_ID, path);
-        if (location == null) {
-            throw new IllegalArgumentException("Invalid resource path: " + MOD_ID + ":" + path);
-        }
-        return location;
     }
 }

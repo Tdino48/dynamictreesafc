@@ -23,6 +23,7 @@ import org.apache.logging.log4j.Logger;
 public final class DtafcPackEvents {
     private static final Logger LOGGER = LogManager.getLogger();
     private static final String COAST_REDWOOD_PACK = "dtafc-disable-coast-redwood";
+    private static final String COAST_REDWOOD_TITLE = "DTAFC: Disable Coast Redwood";
     private static final String LEGACY_CONFIG_FILE = "dtafc-commmon.toml";
 
     private DtafcPackEvents() {
@@ -34,7 +35,7 @@ public final class DtafcPackEvents {
             return;
         }
         if (!isCoastRedwoodEnabled()) {
-            addBuiltInPack(event, COAST_REDWOOD_PACK, "DTAFC: Disable Coast Redwood");
+            addBuiltInPack(event);
         }
     }
 
@@ -96,16 +97,16 @@ public final class DtafcPackEvents {
     }
 
 
-    private static void addBuiltInPack(final AddPackFindersEvent event, final String packId, final String title) {
+    private static void addBuiltInPack(final AddPackFindersEvent event) {
         var modFileInfo = ModList.get().getModFileById(dtafc.MOD_ID);
         if (modFileInfo == null) {
             return;
         }
 
-        Path packPath = modFileInfo.getFile().findResource("resourcepacks/" + packId);
+        Path packPath = modFileInfo.getFile().findResource("resourcepacks/" + COAST_REDWOOD_PACK);
         Pack pack = Pack.readMetaAndCreate(
-                packId,
-                Component.literal(title),
+                COAST_REDWOOD_PACK,
+                Component.literal(COAST_REDWOOD_TITLE),
                 true,
                 name -> new PathPackResources(name, packPath, true),
                 PackType.SERVER_DATA,

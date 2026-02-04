@@ -1,8 +1,6 @@
 {
   "pack": {
-    "description": {
-      "text": "DTAFC: Disable Coast Redwood"
-    },
+    "description": "DTAFC: Disable Coast Redwood",
     "pack_format": 15
   }
 }
