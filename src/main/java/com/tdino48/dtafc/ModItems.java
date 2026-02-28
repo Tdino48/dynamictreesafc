@@ -1,17 +1,43 @@
 package com.tdino48.dtafc;
 
+import net.minecraft.core.registries.Registries;
+import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
 
 public final class ModItems {
-    private static final String TFC_DEBARK_MODID = "tfc_debark";
+    public static final String TFC_DEBARK_MODID = "tfc_debark";
     private static boolean barkItemsRegistered = false;
 
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, dtafc.MOD_ID);
+
+    public static final DeferredRegister<CreativeModeTab> CREATIVE_TABS =
+            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, dtafc.MOD_ID);
+
+    @SuppressWarnings("unused")
+    public static final RegistryObject<CreativeModeTab> DTAFC_TAB = CREATIVE_TABS.register("main",
+            () -> CreativeModeTab.builder()
+                    .title(Component.translatable("itemGroup.dtafc"))
+                    .icon(() -> {
+                        Item seed = ForgeRegistries.ITEMS.getValue(
+                                ResourceLocation.fromNamespaceAndPath(dtafc.MOD_ID, "baobab_seed"));
+                        return new ItemStack(seed != null ? seed : Items.AIR);
+                    })
+                    .displayItems((params, output) ->
+                            ForgeRegistries.ITEMS.getEntries().stream()
+                                    .filter(e -> e.getKey().location().getNamespace().equals(dtafc.MOD_ID))
+                                    .filter(e -> !e.getKey().location().getPath().endsWith("_branch"))
+                                    .forEach(e -> output.accept(e.getValue())))
+                    .build());
 
     private ModItems() {
     }
@@ -21,6 +47,7 @@ public final class ModItems {
             registerBarkItems();
         }
         ITEMS.register(bus);
+        CREATIVE_TABS.register(bus);
     }
 
     private static void registerBarkItems() {

@@ -208,5 +208,6 @@
     "item.dtafc.rainbow_eucalyptus_bark":  "Rainbow Eucalyptus Bark",
     "item.dtafc.rainbow_eucalyptus_bark_powder":  "Rainbow Eucalyptus Bark Powder",
     "item.dtafc.redcedar_bark":  "Redcedar Bark",
-    "item.dtafc.redcedar_bark_powder":  "Redcedar Bark Powder"
+    "item.dtafc.redcedar_bark_powder":  "Redcedar Bark Powder",
+    "itemGroup.dtafc":  "Dynamic Trees AFC"
 }
