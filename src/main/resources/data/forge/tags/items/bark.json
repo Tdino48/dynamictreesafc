@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "dtafc:baobab_bark",
+    "dtafc:black_oak_bark",
+    "dtafc:cypress_bark",
+    "dtafc:eucalyptus_bark",
+    "dtafc:fig_bark",
+    "dtafc:gum_arabic_bark",
+    "dtafc:hevea_bark",
+    "dtafc:ipe_bark",
+    "dtafc:ironwood_bark",
+    "dtafc:mahogany_bark",
+    "dtafc:poplar_bark",
+    "dtafc:rainbow_eucalyptus_bark",
+    "dtafc:redcedar_bark",
+    "dtafc:teak_bark",
+    "dtafc:tualang_bark"
+  ]
+}
