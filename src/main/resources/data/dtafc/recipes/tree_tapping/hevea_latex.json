@@ -1,0 +1,10 @@
+{
+  "type": "afc:tree_tapping",
+  "input_block": "dtafc:hevea_branch",
+  "result_fluid": {
+    "fluid": "afc:latex",
+    "amount": 2
+  },
+  "minimum_temperature": 22,
+  "requires_natural_log": false
+}

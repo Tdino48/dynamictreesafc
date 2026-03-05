@@ -1,0 +1,10 @@
+{
+  "type": "afc:tree_tapping",
+  "input_block": "dtafc:rubber_fig_branch",
+  "result_fluid": {
+    "fluid": "afc:latex",
+    "amount": 1
+  },
+  "minimum_temperature": 12,
+  "requires_natural_log": false
+}
