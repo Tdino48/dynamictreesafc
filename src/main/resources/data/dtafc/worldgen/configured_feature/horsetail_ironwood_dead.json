@@ -1,0 +1,30 @@
+{
+  "type": "dttfc:forest_entry",
+  "config": {
+    "entry": {
+      "climate": {
+        "min_temperature": 9.8,
+        "max_temperature": 20.7,
+        "min_rainfall": 300,
+        "max_rainfall": 500
+      },
+      "groundcover": [
+        {
+          "block": "afc:wood/twig/ironwood"
+        }
+      ],
+      "normal_tree": "tfc:tree/horsetail_ironwood_dead",
+      "dead_tree": "tfc:tree/horsetail_ironwood_dead",
+      "fallen_tree_chance": 0,
+      "bush_log": {
+        "Name": "afc:wood/wood/ironwood",
+        "Properties": {
+          "natural": "true",
+          "axis": "y"
+        }
+      },
+      "bush_leaves": "afc:wood/leaves/horsetail_ironwood"
+    },
+    "species": "dtafc:horsetail_ironwood_dead"
+  }
+}

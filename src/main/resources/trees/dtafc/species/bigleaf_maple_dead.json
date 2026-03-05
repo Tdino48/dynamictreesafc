@@ -1,0 +1,10 @@
+{
+  "leaves_properties": "dtafc:dead",
+  "family": "dtafc:bigleaf_maple",
+  "can_bone_meal_tree": false,
+  "signal_energy": 13,
+  "acceptable_soils": [
+    "dirt_like",
+    "water_like"
+  ]
+}

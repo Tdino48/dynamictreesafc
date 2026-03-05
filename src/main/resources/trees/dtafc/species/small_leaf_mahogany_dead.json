@@ -1,0 +1,15 @@
+{
+  "leaves_properties": "dtafc:dead",
+  "family": "dtafc:small_leaf_mahogany",
+  "can_bone_meal_tree": false,
+  "growth_logic_kit": "dtaddon_lib:mahogany",
+  "signal_energy": 9,
+  "growth_rate": 0.8,
+  "up_probability": 3,
+  "tapering": 0.25,
+  "lowest_branch_height": 3,
+  "acceptable_soils": [
+    "dirt_like",
+    "water_like"
+  ]
+}

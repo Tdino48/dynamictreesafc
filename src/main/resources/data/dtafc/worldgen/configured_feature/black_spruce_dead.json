@@ -1,0 +1,30 @@
+{
+  "type": "dttfc:forest_entry",
+  "config": {
+    "entry": {
+      "climate": {
+        "min_temperature": -17.5,
+        "max_temperature": -1.1,
+        "min_rainfall": 145,
+        "max_rainfall": 360
+      },
+      "groundcover": [
+        {
+          "block": "tfc:wood/twig/spruce"
+        }
+      ],
+      "normal_tree": "tfc:tree/black_spruce_dead",
+      "dead_tree": "tfc:tree/black_spruce_dead",
+      "fallen_tree_chance": 0,
+      "bush_log": {
+        "Name": "tfc:wood/wood/spruce",
+        "Properties": {
+          "natural": "true",
+          "axis": "y"
+        }
+      },
+      "bush_leaves": "afc:wood/leaves/black_spruce"
+    },
+    "species": "dtafc:black_spruce_dead"
+  }
+}

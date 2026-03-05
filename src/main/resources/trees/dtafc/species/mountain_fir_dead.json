@@ -1,0 +1,21 @@
+{
+  "leaves_properties": "dtafc:dead",
+  "family": "dtafc:mountain_fir",
+  "can_bone_meal_tree": false,
+  "growth_logic_kit": {
+    "name": "dynamictrees:conifer",
+    "properties": {
+      "energy_divisor": 2
+    }
+  },
+  "tapering": 0.4,
+  "signal_energy": 10,
+  "up_probability": 3,
+  "lowest_branch_height": 3,
+  "growth_rate": 1.4,
+  "max_branch_radius": 7,
+  "acceptable_soils": [
+    "dirt_like",
+    "water_like"
+  ]
+}

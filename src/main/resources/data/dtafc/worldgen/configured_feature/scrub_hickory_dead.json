@@ -1,0 +1,30 @@
+{
+  "type": "dttfc:forest_entry",
+  "config": {
+    "entry": {
+      "climate": {
+        "min_temperature": 11.6,
+        "max_temperature": 17.1,
+        "min_rainfall": 325,
+        "max_rainfall": 475
+      },
+      "groundcover": [
+        {
+          "block": "tfc:wood/twig/hickory"
+        }
+      ],
+      "normal_tree": "tfc:tree/scrub_hickory_dead",
+      "dead_tree": "tfc:tree/scrub_hickory_dead",
+      "fallen_tree_chance": 0,
+      "bush_log": {
+        "Name": "tfc:wood/wood/hickory",
+        "Properties": {
+          "natural": "true",
+          "axis": "y"
+        }
+      },
+      "bush_leaves": "afc:wood/leaves/scrub_hickory"
+    },
+    "species": "dtafc:scrub_hickory_dead"
+  }
+}

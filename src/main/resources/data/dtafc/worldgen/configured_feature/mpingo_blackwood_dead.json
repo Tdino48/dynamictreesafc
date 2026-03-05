@@ -1,0 +1,30 @@
+{
+  "type": "dttfc:forest_entry",
+  "config": {
+    "entry": {
+      "climate": {
+        "min_temperature": 13.4,
+        "max_temperature": 22.5,
+        "min_rainfall": 85,
+        "max_rainfall": 285
+      },
+      "groundcover": [
+        {
+          "block": "tfc:wood/twig/blackwood"
+        }
+      ],
+      "normal_tree": "tfc:tree/mpingo_blackwood_dead",
+      "dead_tree": "tfc:tree/mpingo_blackwood_dead",
+      "fallen_tree_chance": 0,
+      "bush_log": {
+        "Name": "tfc:wood/wood/blackwood",
+        "Properties": {
+          "natural": "true",
+          "axis": "y"
+        }
+      },
+      "bush_leaves": "afc:wood/leaves/mpingo_blackwood"
+    },
+    "species": "dtafc:mpingo_blackwood_dead"
+  }
+}

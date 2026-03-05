@@ -1,0 +1,30 @@
+{
+  "type": "dttfc:forest_entry",
+  "config": {
+    "entry": {
+      "climate": {
+        "min_temperature": -17.5,
+        "max_temperature": -1.1,
+        "min_rainfall": 150,
+        "max_rainfall": 500
+      },
+      "groundcover": [
+        {
+          "block": "tfc:wood/twig/pine"
+        }
+      ],
+      "normal_tree": "tfc:tree/tamarack_dead",
+      "dead_tree": "tfc:tree/tamarack_dead",
+      "fallen_tree_chance": 0,
+      "bush_log": {
+        "Name": "tfc:wood/wood/pine",
+        "Properties": {
+          "natural": "true",
+          "axis": "y"
+        }
+      },
+      "bush_leaves": "afc:wood/leaves/tamarack"
+    },
+    "species": "dtafc:tamarack_dead"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "dttfc:forest_entry",
+  "config": {
+    "entry": {
+      "climate": {
+        "min_rainfall": 350,
+        "max_rainfall": 500,
+        "min_temperature": -18,
+        "max_temperature": 5
+      },
+      "groundcover": [
+        {
+          "block": "tfc:wood/twig/aspen"
+        }
+      ],
+      "normal_tree": "tfc:tree/aspen_dead",
+      "dead_tree": "tfc:tree/aspen_dead",
+      "fallen_tree_chance": 0,
+      "bush_log": {
+        "Name": "tfc:wood/wood/aspen",
+        "Properties": {
+          "natural": "true",
+          "axis": "y"
+        }
+      },
+      "bush_leaves": "tfc:wood/leaves/aspen"
+    },
+    "species": "dtafc:aspen_dead"
+  }
+}

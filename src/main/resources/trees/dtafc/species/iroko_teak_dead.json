@@ -1,0 +1,16 @@
+{
+  "leaves_properties": "dtafc:dead",
+  "family": "dtafc:iroko_teak",
+  "can_bone_meal_tree": false,
+  "growth_logic_kit": "dtaddon_lib:canopy",
+  "signal_energy": 19,
+  "up_probability": 2,
+  "tapering": 0.18,
+  "growth_rate": 1,
+  "lowest_branch_height": 5,
+  "max_branch_radius": 14,
+  "acceptable_soils": [
+    "dirt_like",
+    "water_like"
+  ]
+}

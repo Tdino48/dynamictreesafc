@@ -1,0 +1,15 @@
+{
+  "leaves_properties": "dtafc:dead",
+  "family": "dtafc:acacia_koa",
+  "can_bone_meal_tree": false,
+  "up_probability": 1,
+  "signal_energy": 14,
+  "tapering": 0.15,
+  "growth_rate": 0.7,
+  "lowest_branch_height": 4,
+  "growth_logic_kit": "dtaddon_lib:canopy",
+  "acceptable_soils": [
+    "dirt_like",
+    "water_like"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "dttfc:forest_entry",
+  "config": {
+    "entry": {
+      "climate": {
+        "min_temperature": 15.3,
+        "max_temperature": 26.2,
+        "min_rainfall": 30,
+        "max_rainfall": 190
+      },
+      "groundcover": [
+        {
+          "block": "afc:wood/twig/baobab"
+        }
+      ],
+      "normal_tree": "tfc:tree/baobab_dead",
+      "dead_tree": "tfc:tree/baobab_dead",
+      "fallen_tree_chance": 0,
+      "bush_log": {
+        "Name": "afc:wood/wood/baobab",
+        "Properties": {
+          "natural": "true",
+          "axis": "y"
+        }
+      },
+      "bush_leaves": "afc:wood/leaves/baobab"
+    },
+    "species": "dtafc:baobab_dead"
+  }
+}

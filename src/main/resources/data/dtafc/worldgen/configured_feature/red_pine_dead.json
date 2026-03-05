@@ -1,0 +1,30 @@
+{
+  "type": "dttfc:forest_entry",
+  "config": {
+    "entry": {
+      "climate": {
+        "min_temperature": -8.4,
+        "max_temperature": 4.3,
+        "min_rainfall": 185,
+        "max_rainfall": 320
+      },
+      "groundcover": [
+        {
+          "block": "tfc:wood/twig/pine"
+        }
+      ],
+      "normal_tree": "tfc:tree/red_pine_dead",
+      "dead_tree": "tfc:tree/red_pine_dead",
+      "fallen_tree_chance": 0,
+      "bush_log": {
+        "Name": "tfc:wood/wood/pine",
+        "Properties": {
+          "natural": "true",
+          "axis": "y"
+        }
+      },
+      "bush_leaves": "afc:wood/leaves/red_pine"
+    },
+    "species": "dtafc:red_pine_dead"
+  }
+}

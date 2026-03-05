@@ -1,0 +1,21 @@
+{
+  "leaves_properties": "dtafc:dead",
+  "family": "dtafc:coast_spruce",
+  "can_bone_meal_tree": false,
+  "growth_logic_kit": {
+    "name": "dynamictrees:conifer",
+    "properties": {
+      "energy_divisor": 2
+    }
+  },
+  "tapering": 0.25,
+  "signal_energy": 27,
+  "up_probability": 3,
+  "lowest_branch_height": 5,
+  "growth_rate": 1,
+  "max_branch_radius": 16,
+  "acceptable_soils": [
+    "dirt_like",
+    "water_like"
+  ]
+}

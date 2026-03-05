@@ -1,0 +1,30 @@
+{
+  "type": "dttfc:forest_entry",
+  "config": {
+    "entry": {
+      "climate": {
+        "min_temperature": 15.3,
+        "max_temperature": 24.4,
+        "min_rainfall": 270,
+        "max_rainfall": 500
+      },
+      "groundcover": [
+        {
+          "block": "tfc:wood/twig/acacia"
+        }
+      ],
+      "normal_tree": "tfc:tree/acacia_koa_dead",
+      "dead_tree": "tfc:tree/acacia_koa_dead",
+      "fallen_tree_chance": 0,
+      "bush_log": {
+        "Name": "tfc:wood/wood/acacia",
+        "Properties": {
+          "natural": "true",
+          "axis": "y"
+        }
+      },
+      "bush_leaves": "afc:wood/leaves/acacia_koa"
+    },
+    "species": "dtafc:acacia_koa_dead"
+  }
+}

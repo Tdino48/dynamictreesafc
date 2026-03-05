@@ -1,0 +1,30 @@
+{
+  "type": "dttfc:forest_entry",
+  "config": {
+    "entry": {
+      "climate": {
+        "min_temperature": 8,
+        "max_temperature": 13.4,
+        "min_rainfall": 65,
+        "max_rainfall": 280
+      },
+      "groundcover": [
+        {
+          "block": "tfc:wood/twig/white_cedar"
+        }
+      ],
+      "normal_tree": "tfc:tree/atlas_cedar_dead",
+      "dead_tree": "tfc:tree/atlas_cedar_dead",
+      "fallen_tree_chance": 0,
+      "bush_log": {
+        "Name": "tfc:wood/wood/white_cedar",
+        "Properties": {
+          "natural": "true",
+          "axis": "y"
+        }
+      },
+      "bush_leaves": "afc:wood/leaves/atlas_cedar"
+    },
+    "species": "dtafc:atlas_cedar_dead"
+  }
+}

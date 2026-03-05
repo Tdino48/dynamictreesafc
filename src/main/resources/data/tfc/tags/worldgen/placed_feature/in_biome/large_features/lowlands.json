@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "tfc:forest", "required": false, "remove": true },
+    "dtafc:lowland_forest"
+  ]
+}

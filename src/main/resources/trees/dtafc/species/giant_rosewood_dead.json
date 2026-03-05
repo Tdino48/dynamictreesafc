@@ -1,0 +1,11 @@
+{
+  "leaves_properties": "dtafc:dead",
+  "family": "dtafc:giant_rosewood",
+  "can_bone_meal_tree": false,
+  "signal_energy": 15,
+  "max_branch_radius": 12,
+  "acceptable_soils": [
+    "dirt_like",
+    "water_like"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "leaves_properties": "dtafc:dead",
+  "family": "dttfc:kapok",
+  "can_bone_meal_tree": false,
+  "tapering": 0.2,
+  "signal_energy": 24,
+  "up_probability": 3,
+  "lowest_branch_height": 2,
+  "growth_rate": 1,
+  "growth_logic_kit": "jungle",
+  "acceptable_soils": [
+    "dirt_like",
+    "water_like"
+  ]
+}

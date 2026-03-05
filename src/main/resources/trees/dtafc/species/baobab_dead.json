@@ -1,0 +1,15 @@
+{
+  "family": "dtafc:baobab",
+  "leaves_properties": "dtafc:dead",
+  "signal_energy": 12,
+  "growth_rate": 0.6,
+  "can_bone_meal_tree": false,
+  "max_branch_radius": 16,
+  "growth_logic_kit": "dynamictrees:dark_oak",
+  "tapering": 1.75,
+  "lowest_branch_height": 9,
+  "acceptable_soils": [
+    "dirt_like",
+    "water_like"
+  ]
+}

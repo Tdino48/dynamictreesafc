@@ -1,0 +1,20 @@
+{
+  "leaves_properties": "dtafc:dead",
+  "family": "dtafc:red_pine",
+  "can_bone_meal_tree": false,
+  "growth_logic_kit": {
+    "name": "dynamictrees:conifer",
+    "properties": {
+      "energy_divisor": 2
+    }
+  },
+  "tapering": 0.3,
+  "signal_energy": 13,
+  "up_probability": 2,
+  "lowest_branch_height": 2,
+  "growth_rate": 1.2,
+  "acceptable_soils": [
+    "dirt_like",
+    "water_like"
+  ]
+}

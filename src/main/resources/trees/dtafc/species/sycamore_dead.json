@@ -1,0 +1,9 @@
+{
+  "leaves_properties": "dtafc:dead",
+  "family": "dttfc:sycamore",
+  "can_bone_meal_tree": false,
+  "acceptable_soils": [
+    "dirt_like",
+    "water_like"
+  ]
+}

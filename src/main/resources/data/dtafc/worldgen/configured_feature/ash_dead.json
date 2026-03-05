@@ -1,0 +1,30 @@
+{
+  "type": "dttfc:forest_entry",
+  "config": {
+    "entry": {
+      "climate": {
+        "min_rainfall": 60,
+        "max_rainfall": 240,
+        "min_temperature": 1,
+        "max_temperature": 15
+      },
+      "groundcover": [
+        {
+          "block": "tfc:wood/twig/ash"
+        }
+      ],
+      "normal_tree": "tfc:tree/ash_dead",
+      "dead_tree": "tfc:tree/ash_dead",
+      "fallen_tree_chance": 0,
+      "bush_log": {
+        "Name": "tfc:wood/wood/ash",
+        "Properties": {
+          "natural": "true",
+          "axis": "y"
+        }
+      },
+      "bush_leaves": "tfc:wood/leaves/ash"
+    },
+    "species": "dtafc:ash_dead"
+  }
+}

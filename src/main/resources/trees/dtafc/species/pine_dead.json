@@ -1,0 +1,10 @@
+{
+  "leaves_properties": "dtafc:dead",
+  "family": "dttfc:pine",
+  "can_bone_meal_tree": false,
+  "growth_logic_kit": "conifer",
+  "acceptable_soils": [
+    "dirt_like",
+    "water_like"
+  ]
+}

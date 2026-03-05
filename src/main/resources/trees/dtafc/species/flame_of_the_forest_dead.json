@@ -1,0 +1,14 @@
+{
+  "leaves_properties": "dtafc:dead",
+  "family": "dtafc:flame_of_the_forest",
+  "can_bone_meal_tree": false,
+  "signal_energy": 12,
+  "up_probability": 1,
+  "tapering": 0.2,
+  "growth_rate": 0.8,
+  "lowest_branch_height": 3,
+  "acceptable_soils": [
+    "dirt_like",
+    "water_like"
+  ]
+}

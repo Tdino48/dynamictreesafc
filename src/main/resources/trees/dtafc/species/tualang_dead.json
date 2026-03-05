@@ -1,0 +1,14 @@
+{
+  "leaves_properties": "dtafc:dead",
+  "family": "dtafc:tualang",
+  "can_bone_meal_tree": false,
+  "growth_logic_kit": "jungle",
+  "signal_energy": 24,
+  "up_probability": 3,
+  "lowest_branch_height": 18,
+  "tapering": 0.2,
+  "acceptable_soils": [
+    "dirt_like",
+    "water_like"
+  ]
+}

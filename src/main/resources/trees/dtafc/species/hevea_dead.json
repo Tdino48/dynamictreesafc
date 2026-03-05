@@ -1,0 +1,15 @@
+{
+  "leaves_properties": "dtafc:dead",
+  "family": "dtafc:hevea",
+  "can_bone_meal_tree": false,
+  "signal_energy": 10,
+  "up_probability": 2,
+  "tapering": 0.3,
+  "growth_rate": 0.9,
+  "lowest_branch_height": 4,
+  "max_branch_radius": 8,
+  "acceptable_soils": [
+    "dirt_like",
+    "water_like"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "dttfc:forest_entry",
+  "config": {
+    "entry": {
+      "climate": {
+        "min_rainfall": 0,
+        "max_rainfall": 180,
+        "min_temperature": 12,
+        "max_temperature": 35
+      },
+      "groundcover": [
+        {
+          "block": "tfc:wood/twig/blackwood"
+        }
+      ],
+      "normal_tree": "tfc:tree/blackwood_dead",
+      "dead_tree": "tfc:tree/blackwood_dead",
+      "fallen_tree_chance": 0,
+      "bush_log": {
+        "Name": "tfc:wood/wood/blackwood",
+        "Properties": {
+          "natural": "true",
+          "axis": "y"
+        }
+      },
+      "bush_leaves": "tfc:wood/leaves/blackwood"
+    },
+    "species": "dtafc:blackwood_dead"
+  }
+}

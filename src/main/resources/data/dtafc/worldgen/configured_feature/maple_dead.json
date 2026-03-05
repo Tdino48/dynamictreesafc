@@ -1,0 +1,30 @@
+{
+  "type": "dttfc:forest_entry",
+  "config": {
+    "entry": {
+      "climate": {
+        "min_rainfall": 270,
+        "max_rainfall": 500,
+        "min_temperature": -1,
+        "max_temperature": 15
+      },
+      "groundcover": [
+        {
+          "block": "tfc:wood/twig/maple"
+        }
+      ],
+      "normal_tree": "tfc:tree/maple_dead",
+      "dead_tree": "tfc:tree/maple_dead",
+      "fallen_tree_chance": 0,
+      "bush_log": {
+        "Name": "tfc:wood/wood/maple",
+        "Properties": {
+          "natural": "true",
+          "axis": "y"
+        }
+      },
+      "bush_leaves": "tfc:wood/leaves/maple"
+    },
+    "species": "dtafc:maple_dead"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "dttfc:forest",
+  "config": {
+    "entries": "#dtafc:dead_dynamic_forest_trees",
+    "types": {
+      "none": {
+        "per_chunk_chance": 0
+      },
+      "sparse": {
+        "tree_count": {
+          "type": "uniform",
+          "value": {
+            "min_inclusive": 2,
+            "max_inclusive": 4
+          }
+        },
+        "groundcover_count": 6,
+        "per_chunk_chance": 0.12,
+        "bush_count": 0,
+        "has_spoiler_old_growth": true
+      },
+      "edge": {
+        "tree_count": 5,
+        "groundcover_count": 8
+      },
+      "normal": {
+        "tree_count": 8,
+        "groundcover_count": 20,
+        "has_spoiler_old_growth": true
+      },
+      "old_growth": {
+        "tree_count": 12,
+        "groundcover_count": 28,
+        "allows_old_growth": true
+      }
+    }
+  }
+}
