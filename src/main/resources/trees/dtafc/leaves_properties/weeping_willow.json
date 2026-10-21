@@ -1,5 +1,11 @@
 {
   "primitive_leaves": "afc:wood/leaves/weeping_willow",
   "cell_kit": "dtaddon_lib:willow",
-  "smother": 4
+  "smother": 4,
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/weeping_willow"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/weeping_willow_leaves"
+  }
 }

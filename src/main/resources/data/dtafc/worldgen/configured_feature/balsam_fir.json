@@ -16,8 +16,8 @@
           "block": "afc:wood/fallen_leaves/balsam_fir"
         }
       ],
-      "normal_tree": "tfc:tree/balsam_fir",
-      "dead_tree": "tfc:tree/balsam_fir_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "tfc:wood/wood/douglas_fir",
@@ -27,8 +27,9 @@
         }
       },
       "bush_leaves": "afc:wood/leaves/balsam_fir",
-      "old_growth_tree": "tfc:tree/balsam_fir_large"
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:balsam_fir"
+    "species": "dtafc:balsam_fir",
+    "dead_species": "dtafc:balsam_fir_dead"
   }
 }

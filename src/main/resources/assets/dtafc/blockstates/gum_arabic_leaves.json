@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "afc:block/wood/leaves/gum_arabic"
+      "model": "dtafc:block/gum_arabic_leaves"
     }
   }
 }

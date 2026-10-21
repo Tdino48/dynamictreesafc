@@ -16,8 +16,8 @@
           "block": "afc:wood/fallen_leaves/atlas_cedar"
         }
       ],
-      "normal_tree": "tfc:tree/atlas_cedar",
-      "dead_tree": "tfc:tree/atlas_cedar_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "tfc:wood/wood/white_cedar",
@@ -27,8 +27,9 @@
         }
       },
       "bush_leaves": "afc:wood/leaves/atlas_cedar",
-      "old_growth_tree": "tfc:tree/white_cedar_large"
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:atlas_cedar"
+    "species": "dtafc:atlas_cedar",
+    "dead_species": "dtafc:atlas_cedar_dead"
   }
 }

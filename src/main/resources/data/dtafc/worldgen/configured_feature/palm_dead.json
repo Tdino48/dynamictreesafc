@@ -13,10 +13,12 @@
           "block": "tfc:wood/twig/palm"
         }
       ],
-      "normal_tree": "tfc:tree/palm_dead",
-      "dead_tree": "tfc:tree/palm_dead",
-      "fallen_tree_chance": 0
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
+      "fallen_tree_chance": 0,
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:palm_dead"
+    "species": "dtafc:palm_dead",
+    "dead_species": "dtafc:palm_dead_dead"
   }
 }

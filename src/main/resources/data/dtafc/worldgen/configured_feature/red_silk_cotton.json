@@ -16,8 +16,8 @@
           "block": "afc:wood/fallen_leaves/red_silk_cotton"
         }
       ],
-      "normal_tree": "tfc:tree/red_silk_cotton",
-      "dead_tree": "tfc:tree/red_silk_cotton_dead",
+      "normal_tree": "afc:tree/red_silk_cotton",
+      "dead_tree": "afc:tree/red_silk_cotton_dead",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "tfc:wood/wood/kapok",

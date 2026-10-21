@@ -16,8 +16,8 @@
           "block": "afc:wood/fallen_leaves/jaggery_palm"
         }
       ],
-      "normal_tree": "tfc:tree/jaggery_palm",
-      "dead_tree": "tfc:tree/jaggery_palm_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "tfc:wood/wood/palm",
@@ -26,8 +26,10 @@
           "axis": "y"
         }
       },
-      "bush_leaves": "afc:wood/leaves/jaggery_palm"
+      "bush_leaves": "afc:wood/leaves/jaggery_palm",
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:jaggery_palm"
+    "species": "dtafc:jaggery_palm",
+    "dead_species": "dtafc:jaggery_palm_dead"
   }
 }

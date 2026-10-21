@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "afc:block/wood/leaves/coast_spruce"
+      "model": "dtafc:block/coast_spruce_leaves"
     }
   }
 }

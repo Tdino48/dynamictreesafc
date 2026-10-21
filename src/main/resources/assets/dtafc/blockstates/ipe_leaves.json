@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "afc:block/wood/leaves/ipe"
+      "model": "dtafc:block/ipe_leaves"
     }
   }
 }

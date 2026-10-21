@@ -1,3 +1,9 @@
 {
-  "primitive_leaves": "afc:wood/leaves/mountain_ash"
+  "primitive_leaves": "afc:wood/leaves/mountain_ash",
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/mountain_ash"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/mountain_ash_leaves"
+  }
 }

@@ -1,6 +1,6 @@
 {
-    "textures":  {
-                     "layer0":  "dtafc:item/bark/hevea_bark"
-                 },
-    "parent":  "item/generated"
+  "textures": {
+    "layer0": "dtafc:item/bark/hevea_bark"
+  },
+  "parent": "minecraft:item/generated"
 }

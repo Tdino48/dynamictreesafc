@@ -13,8 +13,8 @@
           "block": "afc:wood/twig/redcedar"
         }
       ],
-      "normal_tree": "tfc:tree/redcedar_dead",
-      "dead_tree": "tfc:tree/redcedar_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "afc:wood/wood/redcedar",
@@ -23,8 +23,10 @@
           "axis": "y"
         }
       },
-      "bush_leaves": "afc:wood/leaves/redcedar"
+      "bush_leaves": "afc:wood/leaves/redcedar",
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:redcedar_dead"
+    "species": "dtafc:redcedar_dead",
+    "dead_species": "dtafc:redcedar_dead_dead"
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "afc:block/wood/leaves/lebombo_ironwood"
+      "model": "dtafc:block/lebombo_ironwood_leaves"
     }
   }
 }

@@ -3,23 +3,27 @@ package com.tdino48.dtafc;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.Optional;
 
 import com.electronwill.nightconfig.core.Config;
 import com.electronwill.nightconfig.core.file.CommentedFileConfig;
 import net.minecraft.network.chat.Component;
+import net.minecraft.server.packs.PackLocationInfo;
+import net.minecraft.server.packs.PackSelectionConfig;
 import net.minecraft.server.packs.PackType;
 import net.minecraft.server.packs.PathPackResources;
 import net.minecraft.server.packs.repository.Pack;
 import net.minecraft.server.packs.repository.PackSource;
-import net.minecraftforge.event.AddPackFindersEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.ModList;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.loading.FMLPaths;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.ModList;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.fml.loading.FMLPaths;
+import net.neoforged.neoforge.event.AddPackFindersEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-@Mod.EventBusSubscriber(modid = dtafc.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(modid = dtafc.MOD_ID)
+
 public final class DtafcPackEvents {
     private static final Logger LOGGER = LogManager.getLogger();
     private static final String COAST_REDWOOD_PACK = "dtafc-disable-coast-redwood";
@@ -45,7 +49,6 @@ public final class DtafcPackEvents {
             if (configPath != null) {
                 try (CommentedFileConfig config = CommentedFileConfig.builder(configPath).build()) {
                     config.load();
-                    // Try different possible key formats
                     Object value = config.get("worldgen.coastRedwoodEnabled");
                     if (value instanceof Boolean) {
                         return (Boolean) value;
@@ -68,7 +71,6 @@ public final class DtafcPackEvents {
         try {
             return DtafcConfig.isCoastRedwoodEnabled();
         } catch (Exception e) {
-            // If Forge config isn't ready yet, default to true (enabled)
             return true;
         }
     }
@@ -96,7 +98,6 @@ public final class DtafcPackEvents {
         return null;
     }
 
-
     private static void addBuiltInPack(final AddPackFindersEvent event) {
         var modFileInfo = ModList.get().getModFileById(dtafc.MOD_ID);
         if (modFileInfo == null) {
@@ -104,14 +105,23 @@ public final class DtafcPackEvents {
         }
 
         Path packPath = modFileInfo.getFile().findResource("resourcepacks/" + COAST_REDWOOD_PACK);
-        Pack pack = Pack.readMetaAndCreate(
+        PackLocationInfo locationInfo = new PackLocationInfo(
                 COAST_REDWOOD_PACK,
                 Component.literal(COAST_REDWOOD_TITLE),
+                PackSource.BUILT_IN,
+                Optional.empty()
+        );
+        PackSelectionConfig selectionConfig = new PackSelectionConfig(
                 true,
-                name -> new PathPackResources(name, packPath, true),
-                PackType.SERVER_DATA,
                 Pack.Position.TOP,
-                PackSource.BUILT_IN
+                false
+        );
+
+        Pack pack = Pack.readMetaAndCreate(
+                locationInfo,
+                new PathPackResources.PathResourcesSupplier(packPath),
+                PackType.SERVER_DATA,
+                selectionConfig
         );
         if (pack != null) {
             event.addRepositorySource(consumer -> consumer.accept(pack));

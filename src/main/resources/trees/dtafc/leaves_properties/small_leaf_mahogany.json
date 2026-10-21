@@ -1,3 +1,9 @@
 {
-  "primitive_leaves": "afc:wood/leaves/small_leaf_mahogany"
+  "primitive_leaves": "afc:wood/leaves/small_leaf_mahogany",
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/small_leaf_mahogany"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/small_leaf_mahogany_leaves"
+  }
 }

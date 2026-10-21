@@ -1,4 +1,10 @@
 {
   "primitive_leaves": "afc:wood/leaves/tualang",
-  "light_requirement": 12
+  "light_requirement": 12,
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/tualang"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/tualang_leaves"
+  }
 }

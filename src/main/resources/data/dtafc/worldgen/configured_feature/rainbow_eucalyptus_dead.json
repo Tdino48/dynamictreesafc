@@ -13,8 +13,8 @@
           "block": "afc:wood/twig/rainbow_eucalyptus"
         }
       ],
-      "normal_tree": "tfc:tree/rainbow_eucalyptus_dead",
-      "dead_tree": "tfc:tree/rainbow_eucalyptus_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "afc:wood/wood/rainbow_eucalyptus",
@@ -23,8 +23,10 @@
           "axis": "y"
         }
       },
-      "bush_leaves": "afc:wood/leaves/rainbow_eucalyptus"
+      "bush_leaves": "afc:wood/leaves/rainbow_eucalyptus",
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:rainbow_eucalyptus_dead"
+    "species": "dtafc:rainbow_eucalyptus_dead",
+    "dead_species": "dtafc:rainbow_eucalyptus_dead_dead"
   }
 }

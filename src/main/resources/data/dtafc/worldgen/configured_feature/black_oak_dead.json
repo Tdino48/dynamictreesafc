@@ -13,8 +13,8 @@
           "block": "afc:wood/twig/black_oak"
         }
       ],
-      "normal_tree": "tfc:tree/black_oak_dead",
-      "dead_tree": "tfc:tree/black_oak_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "afc:wood/wood/black_oak",
@@ -23,8 +23,10 @@
           "axis": "y"
         }
       },
-      "bush_leaves": "afc:wood/leaves/black_oak"
+      "bush_leaves": "afc:wood/leaves/black_oak",
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:black_oak_dead"
+    "species": "dtafc:black_oak_dead",
+    "dead_species": "dtafc:black_oak_dead_dead"
   }
 }

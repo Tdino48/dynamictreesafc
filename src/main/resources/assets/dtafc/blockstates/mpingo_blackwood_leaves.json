@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "afc:block/wood/leaves/mpingo_blackwood"
+      "model": "dtafc:block/mpingo_blackwood_leaves"
     }
   }
 }

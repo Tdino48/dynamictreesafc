@@ -13,8 +13,8 @@
           "block": "tfc:wood/twig/birch"
         }
       ],
-      "normal_tree": "tfc:tree/birch_dead",
-      "dead_tree": "tfc:tree/birch_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "tfc:wood/wood/birch",
@@ -23,8 +23,10 @@
           "axis": "y"
         }
       },
-      "bush_leaves": "tfc:wood/leaves/birch"
+      "bush_leaves": "tfc:wood/leaves/birch",
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:birch_dead"
+    "species": "dtafc:birch_dead",
+    "dead_species": "dtafc:birch_dead_dead"
   }
 }

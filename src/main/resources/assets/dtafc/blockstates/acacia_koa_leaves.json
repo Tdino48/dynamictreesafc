@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "afc:block/wood/leaves/acacia_koa"
+      "model": "dtafc:block/acacia_koa_leaves"
     }
   }
 }

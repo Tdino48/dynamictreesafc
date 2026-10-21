@@ -1,5 +1,11 @@
 {
   "primitive_leaves": "afc:wood/leaves/horsetail_ironwood",
   "cell_kit": "dynamictrees:conifer",
-  "smother": 2
+  "smother": 2,
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/horsetail_ironwood"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/horsetail_ironwood_leaves"
+  }
 }

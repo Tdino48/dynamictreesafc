@@ -16,8 +16,8 @@
           "block": "afc:wood/fallen_leaves/mpingo_blackwood"
         }
       ],
-      "normal_tree": "tfc:tree/mpingo_blackwood",
-      "dead_tree": "tfc:tree/mpingo_blackwood_dead",
+      "normal_tree": "afc:tree/mpingo_blackwood",
+      "dead_tree": "afc:tree/mpingo_blackwood_dead",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "tfc:wood/wood/blackwood",

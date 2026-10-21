@@ -1,3 +1,9 @@
 {
-  "primitive_leaves": "afc:wood/leaves/fig"
+  "primitive_leaves": "afc:wood/leaves/fig",
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/fig"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/rusty_fig_leaves"
+  }
 }

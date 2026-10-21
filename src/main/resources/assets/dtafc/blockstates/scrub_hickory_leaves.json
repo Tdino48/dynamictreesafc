@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "afc:block/wood/leaves/scrub_hickory"
+      "model": "dtafc:block/scrub_hickory_leaves"
     }
   }
 }

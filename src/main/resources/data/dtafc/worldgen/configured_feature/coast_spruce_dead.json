@@ -13,8 +13,8 @@
           "block": "tfc:wood/twig/spruce"
         }
       ],
-      "normal_tree": "tfc:tree/coast_spruce_dead",
-      "dead_tree": "tfc:tree/coast_spruce_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "tfc:wood/wood/spruce",
@@ -23,8 +23,10 @@
           "axis": "y"
         }
       },
-      "bush_leaves": "afc:wood/leaves/coast_spruce"
+      "bush_leaves": "afc:wood/leaves/coast_spruce",
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:coast_spruce_dead"
+    "species": "dtafc:coast_spruce_dead",
+    "dead_species": "dtafc:coast_spruce_dead_dead"
   }
 }

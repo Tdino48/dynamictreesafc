@@ -1,5 +1,11 @@
 {
   "primitive_leaves": "afc:wood/leaves/cypress",
   "cell_kit": "dynamictrees:conifer",
-  "smother": 9
+  "smother": 9,
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/cypress"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/slender_cypress_leaves"
+  }
 }

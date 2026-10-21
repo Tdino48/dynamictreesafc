@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "afc:block/wood/leaves/tamarack"
+      "model": "dtafc:block/tamarack_leaves"
     }
   }
 }

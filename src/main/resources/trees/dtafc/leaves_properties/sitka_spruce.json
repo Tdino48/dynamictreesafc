@@ -2,5 +2,11 @@
   "primitive_leaves": "afc:wood/leaves/sitka_spruce",
   "cell_kit": "dynamictrees:conifer",
   "smother": 3,
-  "type": "scruffy"
+  "type": "scruffy",
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/sitka_spruce"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/sitka_spruce_leaves"
+  }
 }

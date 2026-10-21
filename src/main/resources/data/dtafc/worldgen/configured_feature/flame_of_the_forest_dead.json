@@ -13,8 +13,8 @@
           "block": "afc:wood/twig/teak"
         }
       ],
-      "normal_tree": "tfc:tree/flame_of_the_forest_dead",
-      "dead_tree": "tfc:tree/flame_of_the_forest_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "afc:wood/wood/teak",
@@ -23,8 +23,10 @@
           "axis": "y"
         }
       },
-      "bush_leaves": "afc:wood/leaves/flame_of_the_forest"
+      "bush_leaves": "afc:wood/leaves/flame_of_the_forest",
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:flame_of_the_forest_dead"
+    "species": "dtafc:flame_of_the_forest_dead",
+    "dead_species": "dtafc:flame_of_the_forest_dead_dead"
   }
 }

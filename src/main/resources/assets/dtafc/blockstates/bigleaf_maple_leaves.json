@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "afc:block/wood/leaves/bigleaf_maple"
+      "model": "dtafc:block/bigleaf_maple_leaves"
     }
   }
 }

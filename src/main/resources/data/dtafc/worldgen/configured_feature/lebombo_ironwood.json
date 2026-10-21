@@ -16,8 +16,8 @@
           "block": "afc:wood/fallen_leaves/lebombo_ironwood"
         }
       ],
-      "normal_tree": "tfc:tree/lebombo_ironwood",
-      "dead_tree": "tfc:tree/lebombo_ironwood_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "afc:wood/wood/ironwood",
@@ -26,8 +26,10 @@
           "axis": "y"
         }
       },
-      "bush_leaves": "afc:wood/leaves/lebombo_ironwood"
+      "bush_leaves": "afc:wood/leaves/lebombo_ironwood",
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:lebombo_ironwood"
+    "species": "dtafc:lebombo_ironwood",
+    "dead_species": "dtafc:lebombo_ironwood_dead"
   }
 }

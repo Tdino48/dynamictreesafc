@@ -1,5 +1,11 @@
 {
   "primitive_leaves": "afc:wood/leaves/baobab",
   "cell_kit": "dynamictrees:acacia",
-  "light_requirement": 15
+  "light_requirement": 15,
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/baobab"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/baobab_leaves"
+  }
 }

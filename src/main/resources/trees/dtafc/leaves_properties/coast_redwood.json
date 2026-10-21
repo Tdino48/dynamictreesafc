@@ -3,5 +3,11 @@
   "cell_kit": "dynamictrees:conifer",
   "smother": 3,
   "type": "scruffy",
-  "scruffy_leaf_chance": 0.8
+  "scruffy_leaf_chance": 0.8,
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/coast_redwood"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/coast_redwood_leaves"
+  }
 }

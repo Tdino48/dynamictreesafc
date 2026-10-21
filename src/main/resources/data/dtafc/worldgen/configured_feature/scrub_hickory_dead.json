@@ -13,8 +13,8 @@
           "block": "tfc:wood/twig/hickory"
         }
       ],
-      "normal_tree": "tfc:tree/scrub_hickory_dead",
-      "dead_tree": "tfc:tree/scrub_hickory_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "tfc:wood/wood/hickory",
@@ -23,8 +23,10 @@
           "axis": "y"
         }
       },
-      "bush_leaves": "afc:wood/leaves/scrub_hickory"
+      "bush_leaves": "afc:wood/leaves/scrub_hickory",
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:scrub_hickory_dead"
+    "species": "dtafc:scrub_hickory_dead",
+    "dead_species": "dtafc:scrub_hickory_dead_dead"
   }
 }

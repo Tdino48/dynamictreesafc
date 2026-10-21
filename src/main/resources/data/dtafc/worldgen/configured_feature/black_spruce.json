@@ -16,8 +16,8 @@
           "block": "afc:wood/fallen_leaves/black_spruce"
         }
       ],
-      "normal_tree": "tfc:tree/black_spruce",
-      "dead_tree": "tfc:tree/black_spruce_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "tfc:wood/wood/spruce",
@@ -27,8 +27,9 @@
         }
       },
       "bush_leaves": "afc:wood/leaves/black_spruce",
-      "old_growth_tree": "tfc:tree/black_spruce_large"
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:black_spruce"
+    "species": "dtafc:black_spruce",
+    "dead_species": "dtafc:black_spruce_dead"
   }
 }

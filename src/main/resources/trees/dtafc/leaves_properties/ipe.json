@@ -1,3 +1,9 @@
 {
-  "primitive_leaves": "afc:wood/leaves/ipe"
+  "primitive_leaves": "afc:wood/leaves/ipe",
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/ipe"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/ipe_leaves"
+  }
 }

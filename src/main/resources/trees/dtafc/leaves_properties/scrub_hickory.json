@@ -1,4 +1,10 @@
 {
   "primitive_leaves": "afc:wood/leaves/scrub_hickory",
-  "cell_kit": "dynamictrees:deciduous"
+  "cell_kit": "dynamictrees:deciduous",
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/scrub_hickory"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/scrub_hickory_leaves"
+  }
 }

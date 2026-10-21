@@ -13,8 +13,8 @@
           "block": "tfc:wood/twig/blackwood"
         }
       ],
-      "normal_tree": "tfc:tree/mpingo_blackwood_dead",
-      "dead_tree": "tfc:tree/mpingo_blackwood_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "tfc:wood/wood/blackwood",
@@ -23,8 +23,10 @@
           "axis": "y"
         }
       },
-      "bush_leaves": "afc:wood/leaves/mpingo_blackwood"
+      "bush_leaves": "afc:wood/leaves/mpingo_blackwood",
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:mpingo_blackwood_dead"
+    "species": "dtafc:mpingo_blackwood_dead",
+    "dead_species": "dtafc:mpingo_blackwood_dead_dead"
   }
 }

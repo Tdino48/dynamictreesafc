@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "afc:block/wood/leaves/weeping_maple"
+      "model": "dtafc:block/weeping_maple_leaves"
     }
   }
 }

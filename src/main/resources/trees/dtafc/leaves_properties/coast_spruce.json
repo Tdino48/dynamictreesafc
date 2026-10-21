@@ -1,5 +1,11 @@
 {
   "primitive_leaves": "afc:wood/leaves/coast_spruce",
   "cell_kit": "dynamictrees:conifer",
-  "smother": 3
+  "smother": 3,
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/coast_spruce"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/coast_spruce_leaves"
+  }
 }

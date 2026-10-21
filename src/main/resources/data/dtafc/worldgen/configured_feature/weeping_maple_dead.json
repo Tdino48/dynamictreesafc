@@ -13,8 +13,8 @@
           "block": "tfc:wood/twig/maple"
         }
       ],
-      "normal_tree": "tfc:tree/weeping_maple_dead",
-      "dead_tree": "tfc:tree/weeping_maple_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "tfc:wood/wood/maple",
@@ -23,8 +23,10 @@
           "axis": "y"
         }
       },
-      "bush_leaves": "afc:wood/leaves/weeping_maple"
+      "bush_leaves": "afc:wood/leaves/weeping_maple",
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:weeping_maple_dead"
+    "species": "dtafc:weeping_maple_dead",
+    "dead_species": "dtafc:weeping_maple_dead_dead"
   }
 }

@@ -16,8 +16,8 @@
           "block": "afc:wood/fallen_leaves/eucalyptus"
         }
       ],
-      "normal_tree": "tfc:tree/eucalyptus",
-      "dead_tree": "tfc:tree/eucalyptus",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "afc:wood/wood/eucalyptus",
@@ -27,8 +27,9 @@
         }
       },
       "bush_leaves": "afc:wood/leaves/eucalyptus",
-      "old_growth_tree": "tfc:tree/eucalyptus"
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:blue_gum"
+    "species": "dtafc:blue_gum",
+    "dead_species": "dtafc:blue_gum_dead"
   }
 }

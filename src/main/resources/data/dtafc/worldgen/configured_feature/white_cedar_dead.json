@@ -13,8 +13,8 @@
           "block": "tfc:wood/twig/white_cedar"
         }
       ],
-      "normal_tree": "tfc:tree/white_cedar_dead",
-      "dead_tree": "tfc:tree/white_cedar_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "tfc:wood/wood/white_cedar",
@@ -23,8 +23,10 @@
           "axis": "y"
         }
       },
-      "bush_leaves": "tfc:wood/leaves/white_cedar"
+      "bush_leaves": "tfc:wood/leaves/white_cedar",
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:white_cedar_dead"
+    "species": "dtafc:white_cedar_dead",
+    "dead_species": "dtafc:white_cedar_dead_dead"
   }
 }

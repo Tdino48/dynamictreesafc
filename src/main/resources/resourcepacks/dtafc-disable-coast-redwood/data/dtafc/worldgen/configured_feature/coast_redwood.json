@@ -16,8 +16,8 @@
           "block": "afc:wood/fallen_leaves/coast_redwood"
         }
       ],
-      "normal_tree": "tfc:tree/coast_redwood",
-      "dead_tree": "tfc:tree/coast_redwood_dead",
+      "normal_tree": "afc:tree/coast_redwood",
+      "dead_tree": "afc:tree/coast_redwood_dead",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "tfc:wood/wood/sequoia",

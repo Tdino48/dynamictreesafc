@@ -16,8 +16,8 @@
           "block": "afc:wood/fallen_leaves/coast_redwood"
         }
       ],
-      "normal_tree": "tfc:tree/coast_redwood",
-      "dead_tree": "tfc:tree/coast_redwood_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "tfc:wood/wood/sequoia",
@@ -27,8 +27,9 @@
         }
       },
       "bush_leaves": "afc:wood/leaves/coast_redwood",
-      "old_growth_tree": "tfc:tree/coast_redwood_large"
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:coast_redwood"
+    "species": "dtafc:coast_redwood",
+    "dead_species": "dtafc:coast_redwood_dead"
   }
 }
