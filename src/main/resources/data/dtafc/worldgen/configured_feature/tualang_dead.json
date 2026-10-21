@@ -13,8 +13,8 @@
           "block": "afc:wood/twig/tualang"
         }
       ],
-      "normal_tree": "tfc:tree/tualang",
-      "dead_tree": "tfc:tree/tualang",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "afc:wood/wood/tualang",
@@ -23,8 +23,10 @@
           "axis": "y"
         }
       },
-      "bush_leaves": "afc:wood/leaves/tualang"
+      "bush_leaves": "afc:wood/leaves/tualang",
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:tualang_dead"
+    "species": "dtafc:tualang_dead",
+    "dead_species": "dtafc:tualang_dead_dead"
   }
 }

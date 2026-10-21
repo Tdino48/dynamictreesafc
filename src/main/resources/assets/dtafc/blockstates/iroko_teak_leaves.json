@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "afc:block/wood/leaves/teak"
+      "model": "dtafc:block/iroko_teak_leaves"
     }
   }
 }

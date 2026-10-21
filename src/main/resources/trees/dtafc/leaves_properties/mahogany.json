@@ -1,4 +1,10 @@
 {
   "primitive_leaves": "afc:wood/leaves/mahogany",
-  "cell_kit": "dtaddon_lib:mahogany"
+  "cell_kit": "dtaddon_lib:mahogany",
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/mahogany"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/mahogany_leaves"
+  }
 }

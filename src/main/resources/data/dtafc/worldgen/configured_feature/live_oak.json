@@ -16,8 +16,8 @@
           "block": "afc:wood/fallen_leaves/live_oak"
         }
       ],
-      "normal_tree": "tfc:tree/live_oak",
-      "dead_tree": "tfc:tree/live_oak_dead",
+      "normal_tree": "afc:tree/live_oak",
+      "dead_tree": "afc:tree/live_oak_dead",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "tfc:wood/wood/oak",

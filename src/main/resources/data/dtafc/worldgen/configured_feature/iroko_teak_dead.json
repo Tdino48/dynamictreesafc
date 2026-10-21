@@ -13,8 +13,8 @@
           "block": "afc:wood/twig/teak"
         }
       ],
-      "normal_tree": "tfc:tree/iroko_teak_dead",
-      "dead_tree": "tfc:tree/iroko_teak_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "afc:wood/wood/teak",
@@ -23,8 +23,10 @@
           "axis": "y"
         }
       },
-      "bush_leaves": "afc:wood/leaves/iroko_teak"
+      "bush_leaves": "afc:wood/leaves/iroko_teak",
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:iroko_teak_dead"
+    "species": "dtafc:iroko_teak_dead",
+    "dead_species": "dtafc:iroko_teak_dead_dead"
   }
 }

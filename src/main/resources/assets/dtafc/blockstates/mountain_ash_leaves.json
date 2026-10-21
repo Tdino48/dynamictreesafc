@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "afc:block/wood/leaves/mountain_ash"
+      "model": "dtafc:block/mountain_ash_leaves"
     }
   }
 }

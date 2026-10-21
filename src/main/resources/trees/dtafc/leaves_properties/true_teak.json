@@ -1,5 +1,11 @@
 {
   "primitive_leaves": "afc:wood/leaves/teak",
   "cell_kit": "dtaddon_lib:mahogany",
-  "smother": 2
+  "smother": 2,
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/teak"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/true_teak_leaves"
+  }
 }

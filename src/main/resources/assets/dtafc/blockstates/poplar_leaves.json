@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "afc:block/wood/leaves/poplar"
+      "model": "dtafc:block/poplar_leaves"
     }
   }
 }

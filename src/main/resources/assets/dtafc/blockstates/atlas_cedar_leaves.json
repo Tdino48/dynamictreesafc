@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "afc:block/wood/leaves/atlas_cedar"
+      "model": "dtafc:block/atlas_cedar_leaves"
     }
   }
 }

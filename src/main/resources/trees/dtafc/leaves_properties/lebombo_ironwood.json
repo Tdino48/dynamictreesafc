@@ -1,3 +1,9 @@
 {
-  "primitive_leaves": "afc:wood/leaves/lebombo_ironwood"
+  "primitive_leaves": "afc:wood/leaves/lebombo_ironwood",
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/lebombo_ironwood"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/lebombo_ironwood_leaves"
+  }
 }

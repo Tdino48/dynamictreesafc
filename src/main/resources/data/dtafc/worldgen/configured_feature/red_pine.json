@@ -16,8 +16,8 @@
           "block": "afc:wood/fallen_leaves/red_pine"
         }
       ],
-      "normal_tree": "tfc:tree/red_pine",
-      "dead_tree": "tfc:tree/red_pine_dead",
+      "normal_tree": "afc:tree/red_pine",
+      "dead_tree": "afc:tree/red_pine_dead",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "tfc:wood/wood/pine",

@@ -16,8 +16,8 @@
           "block": "afc:wood/fallen_leaves/acacia_koa"
         }
       ],
-      "normal_tree": "tfc:tree/acacia_koa",
-      "dead_tree": "tfc:tree/acacia_koa_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "tfc:wood/wood/acacia",
@@ -27,8 +27,9 @@
         }
       },
       "bush_leaves": "afc:wood/leaves/acacia_koa",
-      "old_growth_tree": "tfc:tree/acacia_large"
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:acacia_koa"
+    "species": "dtafc:acacia_koa",
+    "dead_species": "dtafc:acacia_koa_dead"
   }
 }

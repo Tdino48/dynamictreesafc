@@ -13,8 +13,8 @@
           "block": "afc:wood/twig/ironwood"
         }
       ],
-      "normal_tree": "tfc:tree/ironwood_dead",
-      "dead_tree": "tfc:tree/ironwood_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "afc:wood/wood/ironwood",
@@ -23,8 +23,10 @@
           "axis": "y"
         }
       },
-      "bush_leaves": "afc:wood/leaves/ironwood"
+      "bush_leaves": "afc:wood/leaves/ironwood",
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:king_ironwood_dead"
+    "species": "dtafc:king_ironwood_dead",
+    "dead_species": "dtafc:king_ironwood_dead_dead"
   }
 }

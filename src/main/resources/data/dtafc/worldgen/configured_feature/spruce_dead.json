@@ -13,8 +13,8 @@
           "block": "tfc:wood/twig/spruce"
         }
       ],
-      "normal_tree": "tfc:tree/spruce_dead",
-      "dead_tree": "tfc:tree/spruce_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "tfc:wood/wood/spruce",
@@ -23,8 +23,10 @@
           "axis": "y"
         }
       },
-      "bush_leaves": "tfc:wood/leaves/spruce"
+      "bush_leaves": "tfc:wood/leaves/spruce",
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:spruce_dead"
+    "species": "dtafc:spruce_dead",
+    "dead_species": "dtafc:spruce_dead_dead"
   }
 }

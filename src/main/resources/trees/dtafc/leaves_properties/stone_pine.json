@@ -1,4 +1,10 @@
 {
   "primitive_leaves": "afc:wood/leaves/stone_pine",
-  "cell_kit": "dynamictrees:acacia"
+  "cell_kit": "dynamictrees:acacia",
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/stone_pine"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/stone_pine_leaves"
+  }
 }

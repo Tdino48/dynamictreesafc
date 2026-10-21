@@ -1,14 +1,14 @@
 package com.tdino48.dtafc;
 
-import net.minecraftforge.common.ForgeConfigSpec;
-import net.minecraftforge.fml.ModLoadingContext;
-import net.minecraftforge.fml.config.ModConfig;
+import net.neoforged.fml.ModContainer;
+import net.neoforged.fml.config.ModConfig;
+import net.neoforged.neoforge.common.ModConfigSpec;
 
 public final class DtafcConfig {
     public static final String FILE_NAME = "dtafc-common.toml";
-    private static final ForgeConfigSpec.Builder BUILDER = new ForgeConfigSpec.Builder();
-    public static final ForgeConfigSpec.BooleanValue COAST_REDWOOD_ENABLED;
-    public static final ForgeConfigSpec SPEC;
+    private static final ModConfigSpec.Builder BUILDER = new ModConfigSpec.Builder();
+    public static final ModConfigSpec.BooleanValue COAST_REDWOOD_ENABLED;
+    public static final ModConfigSpec SPEC;
 
     static {
         BUILDER.comment("Worldgen options").push("worldgen");
@@ -22,9 +22,8 @@ public final class DtafcConfig {
     private DtafcConfig() {
     }
 
-    @SuppressWarnings("removal")
-    public static void register() {
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, SPEC, FILE_NAME);
+    public static void register(final ModContainer container) {
+        container.registerConfig(ModConfig.Type.COMMON, SPEC, FILE_NAME);
     }
 
     public static boolean isCoastRedwoodEnabled() {

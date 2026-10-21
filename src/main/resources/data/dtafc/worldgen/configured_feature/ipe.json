@@ -16,8 +16,8 @@
           "block": "afc:wood/fallen_leaves/ipe"
         }
       ],
-      "normal_tree": "tfc:tree/ipe",
-      "dead_tree": "tfc:tree/ipe_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "afc:wood/wood/ipe",
@@ -26,8 +26,10 @@
           "axis": "y"
         }
       },
-      "bush_leaves": "afc:wood/leaves/ipe"
+      "bush_leaves": "afc:wood/leaves/ipe",
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:ipe"
+    "species": "dtafc:ipe",
+    "dead_species": "dtafc:ipe_dead"
   }
 }

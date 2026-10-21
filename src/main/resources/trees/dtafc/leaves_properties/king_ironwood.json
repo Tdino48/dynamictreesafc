@@ -1,5 +1,11 @@
 {
   "primitive_leaves": "afc:wood/leaves/ironwood",
   "cell_kit": "dtaddon_lib:wide_dark_oak",
-  "smother": 3
+  "smother": 3,
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/ironwood"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/king_ironwood_leaves"
+  }
 }

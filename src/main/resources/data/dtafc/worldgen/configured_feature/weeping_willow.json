@@ -16,8 +16,8 @@
           "block": "afc:wood/fallen_leaves/weeping_willow"
         }
       ],
-      "normal_tree": "tfc:tree/weeping_willow",
-      "dead_tree": "tfc:tree/weeping_willow_dead",
+      "normal_tree": "afc:tree/weeping_willow",
+      "dead_tree": "afc:tree/weeping_willow_dead",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "tfc:wood/wood/willow",

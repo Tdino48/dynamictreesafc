@@ -13,8 +13,8 @@
           "block": "afc:wood/twig/cypress"
         }
       ],
-      "normal_tree": "tfc:tree/bald_cypress_dead",
-      "dead_tree": "tfc:tree/bald_cypress_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "afc:wood/wood/cypress",
@@ -23,8 +23,10 @@
           "axis": "y"
         }
       },
-      "bush_leaves": "afc:wood/leaves/bald_cypress"
+      "bush_leaves": "afc:wood/leaves/bald_cypress",
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:bald_cypress_dead"
+    "species": "dtafc:bald_cypress_dead",
+    "dead_species": "dtafc:bald_cypress_dead_dead"
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "afc:block/wood/leaves/fig"
+      "model": "dtafc:block/rusty_fig_leaves"
     }
   }
 }

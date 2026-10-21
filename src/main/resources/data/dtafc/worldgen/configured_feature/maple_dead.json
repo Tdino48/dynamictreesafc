@@ -13,8 +13,8 @@
           "block": "tfc:wood/twig/maple"
         }
       ],
-      "normal_tree": "tfc:tree/maple_dead",
-      "dead_tree": "tfc:tree/maple_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "tfc:wood/wood/maple",
@@ -23,8 +23,10 @@
           "axis": "y"
         }
       },
-      "bush_leaves": "tfc:wood/leaves/maple"
+      "bush_leaves": "tfc:wood/leaves/maple",
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:maple_dead"
+    "species": "dtafc:maple_dead",
+    "dead_species": "dtafc:maple_dead_dead"
   }
 }

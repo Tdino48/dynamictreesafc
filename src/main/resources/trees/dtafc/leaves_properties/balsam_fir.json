@@ -1,5 +1,11 @@
 {
   "primitive_leaves": "afc:wood/leaves/balsam_fir",
   "cell_kit": "dynamictrees:conifer",
-  "smother": 4
+  "smother": 4,
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/balsam_fir"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/balsam_fir_leaves"
+  }
 }

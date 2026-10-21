@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "afc:block/wood/leaves/stone_pine"
+      "model": "dtafc:block/stone_pine_leaves"
     }
   }
 }

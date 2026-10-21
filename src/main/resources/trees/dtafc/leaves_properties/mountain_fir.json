@@ -1,4 +1,10 @@
 {
   "primitive_leaves": "afc:wood/leaves/mountain_fir",
-  "cell_kit": "dynamictrees:conifer"
+  "cell_kit": "dynamictrees:conifer",
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/mountain_fir"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/mountain_fir_leaves"
+  }
 }

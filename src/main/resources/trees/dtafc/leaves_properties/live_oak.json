@@ -1,3 +1,9 @@
 {
-  "primitive_leaves": "afc:wood/leaves/live_oak"
+  "primitive_leaves": "afc:wood/leaves/live_oak",
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/live_oak"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/live_oak_leaves"
+  }
 }

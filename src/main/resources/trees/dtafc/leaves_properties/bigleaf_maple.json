@@ -1,3 +1,9 @@
 {
-  "primitive_leaves": "afc:wood/leaves/bigleaf_maple"
+  "primitive_leaves": "afc:wood/leaves/bigleaf_maple",
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/bigleaf_maple"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/bigleaf_maple_leaves"
+  }
 }

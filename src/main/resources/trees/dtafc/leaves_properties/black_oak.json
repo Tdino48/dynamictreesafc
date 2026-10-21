@@ -1,5 +1,11 @@
 {
   "primitive_leaves": "afc:wood/leaves/black_oak",
   "cell_kit": "dynamictrees:dark_oak",
-  "smother": 3
+  "smother": 3,
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/black_oak"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/black_oak_leaves"
+  }
 }

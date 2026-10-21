@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "afc:block/wood/leaves/sitka_spruce"
+      "model": "dtafc:block/sitka_spruce_leaves"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "dtafc:block/wood/leaves/flame_of_the_forest"
+      "model": "dtafc:block/flame_of_the_forest_leaves"
     }
   }
 }

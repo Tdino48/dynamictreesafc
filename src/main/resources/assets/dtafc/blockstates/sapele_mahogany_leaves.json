@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "afc:block/wood/leaves/sapele_mahogany"
+      "model": "dtafc:block/sapele_mahogany_leaves"
     }
   }
 }

@@ -16,8 +16,8 @@
           "block": "afc:wood/fallen_leaves/mountain_ash"
         }
       ],
-      "normal_tree": "tfc:tree/mountain_ash",
-      "dead_tree": "tfc:tree/mountain_ash_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "afc:wood/wood/eucalyptus",
@@ -27,8 +27,9 @@
         }
       },
       "bush_leaves": "afc:wood/leaves/mountain_ash",
-      "old_growth_tree": "tfc:tree/mountain_ash_large"
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:mountain_ash"
+    "species": "dtafc:mountain_ash",
+    "dead_species": "dtafc:mountain_ash_dead"
   }
 }

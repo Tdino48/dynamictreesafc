@@ -1,3 +1,9 @@
 {
-  "primitive_leaves": "afc:wood/leaves/giant_rosewood"
+  "primitive_leaves": "afc:wood/leaves/giant_rosewood",
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/giant_rosewood"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/giant_rosewood_leaves"
+  }
 }

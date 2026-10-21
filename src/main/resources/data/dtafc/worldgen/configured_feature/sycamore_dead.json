@@ -13,10 +13,12 @@
           "block": "tfc:wood/twig/sycamore"
         }
       ],
-      "normal_tree": "tfc:tree/sycamore_dead",
-      "dead_tree": "tfc:tree/sycamore_dead",
-      "fallen_tree_chance": 0
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
+      "fallen_tree_chance": 0,
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:sycamore_dead"
+    "species": "dtafc:sycamore_dead",
+    "dead_species": "dtafc:sycamore_dead_dead"
   }
 }

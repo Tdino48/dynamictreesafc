@@ -13,8 +13,8 @@
           "block": "tfc:wood/twig/blackwood"
         }
       ],
-      "normal_tree": "tfc:tree/blackwood_dead",
-      "dead_tree": "tfc:tree/blackwood_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "tfc:wood/wood/blackwood",
@@ -23,8 +23,10 @@
           "axis": "y"
         }
       },
-      "bush_leaves": "tfc:wood/leaves/blackwood"
+      "bush_leaves": "tfc:wood/leaves/blackwood",
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:blackwood_dead"
+    "species": "dtafc:blackwood_dead",
+    "dead_species": "dtafc:blackwood_dead_dead"
   }
 }

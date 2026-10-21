@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "afc:block/wood/leaves/balsam_fir"
+      "model": "dtafc:block/balsam_fir_leaves"
     }
   }
 }

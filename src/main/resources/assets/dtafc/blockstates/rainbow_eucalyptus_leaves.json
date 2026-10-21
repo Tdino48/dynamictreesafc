@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "afc:block/wood/leaves/rainbow_eucalyptus"
+      "model": "dtafc:block/rainbow_eucalyptus_leaves"
     }
   }
 }

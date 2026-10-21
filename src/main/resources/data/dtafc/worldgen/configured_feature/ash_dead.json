@@ -13,8 +13,8 @@
           "block": "tfc:wood/twig/ash"
         }
       ],
-      "normal_tree": "tfc:tree/ash_dead",
-      "dead_tree": "tfc:tree/ash_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "tfc:wood/wood/ash",
@@ -23,8 +23,10 @@
           "axis": "y"
         }
       },
-      "bush_leaves": "tfc:wood/leaves/ash"
+      "bush_leaves": "tfc:wood/leaves/ash",
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:ash_dead"
+    "species": "dtafc:ash_dead",
+    "dead_species": "dtafc:ash_dead_dead"
   }
 }

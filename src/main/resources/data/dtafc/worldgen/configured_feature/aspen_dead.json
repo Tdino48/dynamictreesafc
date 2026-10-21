@@ -13,8 +13,8 @@
           "block": "tfc:wood/twig/aspen"
         }
       ],
-      "normal_tree": "tfc:tree/aspen_dead",
-      "dead_tree": "tfc:tree/aspen_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "tfc:wood/wood/aspen",
@@ -23,8 +23,10 @@
           "axis": "y"
         }
       },
-      "bush_leaves": "tfc:wood/leaves/aspen"
+      "bush_leaves": "tfc:wood/leaves/aspen",
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:aspen_dead"
+    "species": "dtafc:aspen_dead",
+    "dead_species": "dtafc:aspen_dead_dead"
   }
 }

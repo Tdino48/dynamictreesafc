@@ -16,8 +16,8 @@
           "block": "afc:wood/fallen_leaves/tamarack"
         }
       ],
-      "normal_tree": "tfc:tree/tamarack",
-      "dead_tree": "tfc:tree/tamarack_dead",
+      "normal_tree": "afc:tree/tamarack",
+      "dead_tree": "afc:tree/tamarack_dead",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "tfc:wood/wood/pine",

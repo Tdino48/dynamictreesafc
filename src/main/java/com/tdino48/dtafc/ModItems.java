@@ -1,5 +1,6 @@
 package com.tdino48.dtafc;
 
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -7,33 +8,32 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.ModList;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.RegistryObject;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.ModList;
+import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.registries.DeferredRegister;
 
 public final class ModItems {
     public static final String TFC_DEBARK_MODID = "tfc_debark";
     private static boolean barkItemsRegistered = false;
 
-    public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, dtafc.MOD_ID);
+    public static final DeferredRegister.Items ITEMS =
+            DeferredRegister.createItems(dtafc.MOD_ID);
 
     public static final DeferredRegister<CreativeModeTab> CREATIVE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, dtafc.MOD_ID);
 
     @SuppressWarnings("unused")
-    public static final RegistryObject<CreativeModeTab> DTAFC_TAB = CREATIVE_TABS.register("main",
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DTAFC_TAB = CREATIVE_TABS.register("main",
             () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.dtafc"))
                     .icon(() -> {
-                        Item seed = ForgeRegistries.ITEMS.getValue(
+                        Item seed = BuiltInRegistries.ITEM.get(
                                 ResourceLocation.fromNamespaceAndPath(dtafc.MOD_ID, "baobab_seed"));
-                        return new ItemStack(seed != null ? seed : Items.AIR);
+                        return new ItemStack(seed != null && seed != Items.AIR ? seed : Items.OAK_SAPLING);
                     })
                     .displayItems((params, output) ->
-                            ForgeRegistries.ITEMS.getEntries().stream()
+                            BuiltInRegistries.ITEM.entrySet().stream()
                                     .filter(e -> e.getKey().location().getNamespace().equals(dtafc.MOD_ID))
                                     .filter(e -> !e.getKey().location().getPath().endsWith("_branch"))
                                     .forEach(e -> output.accept(e.getValue())))

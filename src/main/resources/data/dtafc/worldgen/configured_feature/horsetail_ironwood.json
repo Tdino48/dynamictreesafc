@@ -16,8 +16,8 @@
           "block": "afc:wood/fallen_leaves/horsetail_ironwood"
         }
       ],
-      "normal_tree": "tfc:tree/horsetail_ironwood",
-      "dead_tree": "tfc:tree/horsetail_ironwood_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "afc:wood/wood/ironwood",
@@ -26,8 +26,10 @@
           "axis": "y"
         }
       },
-      "bush_leaves": "afc:wood/leaves/horsetail_ironwood"
+      "bush_leaves": "afc:wood/leaves/horsetail_ironwood",
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:horsetail_ironwood"
+    "species": "dtafc:horsetail_ironwood",
+    "dead_species": "dtafc:horsetail_ironwood_dead"
   }
 }

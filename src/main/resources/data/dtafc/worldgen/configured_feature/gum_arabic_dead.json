@@ -13,8 +13,8 @@
           "block": "afc:wood/twig/gum_arabic"
         }
       ],
-      "normal_tree": "tfc:tree/gum_arabic_dead",
-      "dead_tree": "tfc:tree/gum_arabic_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "afc:wood/wood/gum_arabic",
@@ -23,8 +23,10 @@
           "axis": "y"
         }
       },
-      "bush_leaves": "afc:wood/leaves/gum_arabic"
+      "bush_leaves": "afc:wood/leaves/gum_arabic",
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:gum_arabic_dead"
+    "species": "dtafc:gum_arabic_dead",
+    "dead_species": "dtafc:gum_arabic_dead_dead"
   }
 }

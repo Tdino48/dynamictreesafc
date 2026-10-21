@@ -1,4 +1,10 @@
 {
   "primitive_leaves": "afc:wood/leaves/redcedar",
-  "cell_kit": "dynamictrees:conifer"
+  "cell_kit": "dynamictrees:conifer",
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/redcedar"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/redcedar_leaves"
+  }
 }

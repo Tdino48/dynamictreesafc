@@ -2,5 +2,11 @@
   "primitive_leaves": "afc:wood/leaves/flame_of_the_forest",
   "cell_kit": "dynamictrees:acacia",
   "smother": 2,
-  "color": "#E95B1A"
+  "color": "#E95B1A",
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/flame_of_the_forest"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/flame_of_the_forest_leaves"
+  }
 }

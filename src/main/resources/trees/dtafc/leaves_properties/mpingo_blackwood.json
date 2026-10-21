@@ -1,4 +1,10 @@
 {
   "primitive_leaves": "afc:wood/leaves/mpingo_blackwood",
-  "cell_kit": "dynamictrees:acacia"
+  "cell_kit": "dynamictrees:acacia",
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/mpingo_blackwood"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/mpingo_blackwood_leaves"
+  }
 }

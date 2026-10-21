@@ -13,8 +13,8 @@
           "block": "tfc:wood/twig/chestnut"
         }
       ],
-      "normal_tree": "tfc:tree/chestnut_dead",
-      "dead_tree": "tfc:tree/chestnut_dead",
+      "normal_tree": "dttfc:noop",
+      "dead_tree": "dttfc:noop",
       "fallen_tree_chance": 0,
       "bush_log": {
         "Name": "tfc:wood/wood/chestnut",
@@ -23,8 +23,10 @@
           "axis": "y"
         }
       },
-      "bush_leaves": "tfc:wood/leaves/chestnut"
+      "bush_leaves": "tfc:wood/leaves/chestnut",
+      "old_growth_tree": "dttfc:noop"
     },
-    "species": "dtafc:chestnut_dead"
+    "species": "dtafc:chestnut_dead",
+    "dead_species": "dtafc:chestnut_dead_dead"
   }
 }

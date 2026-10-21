@@ -2,5 +2,11 @@
   "primitive_leaves": "afc:wood/leaves/jaggery_palm",
   "cell_kit": "dttfc:palm",
   "type": "palm",
-  "smother": 0
+  "smother": 0,
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/jaggery_palm"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/jaggery_palm_leaves"
+  }
 }

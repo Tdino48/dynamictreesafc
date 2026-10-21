@@ -1,5 +1,11 @@
 {
   "primitive_leaves": "afc:wood/leaves/red_silk_cotton",
   "light_requirement": 12,
-  "color": "#901713"
+  "color": "#901713",
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/red_silk_cotton"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/red_silk_cotton_leaves"
+  }
 }

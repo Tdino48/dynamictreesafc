@@ -3,5 +3,11 @@
   "cell_kit": "dynamictrees:conifer",
   "smother": 2,
   "type": "scruffy",
-  "scruffy_leaf_chance": 0.7
+  "scruffy_leaf_chance": 0.7,
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/bald_cypress"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/bald_cypress_leaves"
+  }
 }

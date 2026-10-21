@@ -1,5 +1,11 @@
 {
   "primitive_leaves": "afc:wood/leaves/acacia_koa",
   "cell_kit": "dynamictrees:acacia",
-  "smother": 2
+  "smother": 2,
+  "texture_overrides": {
+    "leaves": "afc:block/wood/leaves/dense_leaves/acacia_koa"
+  },
+  "model_overrides": {
+    "leaves": "dtafc:block/acacia_koa_leaves"
+  }
 }

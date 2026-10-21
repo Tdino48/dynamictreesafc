@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "afc:block/wood/leaves/mountain_fir"
+      "model": "dtafc:block/mountain_fir_leaves"
     }
   }
 }

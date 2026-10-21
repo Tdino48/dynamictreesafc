@@ -1,7 +1,7 @@
 {
   "loader": "dynamictrees:branch",
   "textures": {
-    "bark": "afc:block/wood/log/cypress",
-    "rings": "afc:block/wood/log_top/cypress"
+    "bark": "afc:block/wood/stripped_log/cypress",
+    "rings": "afc:block/wood/stripped_log_top/cypress_thick"
   }
 }
